@@ -196,14 +196,15 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 - [x] Improved the code test coverage by adding more specialized test cases.
 - [x] Added demo video which shows how the user will interact with our software.
 
-### Phase 3: Scope of improvement:
+### Phase 3:
 
-- [ ] Classify recipes into vegan / vegetarian / non-vegetarian categorizations.
-- [ ] Add more filters and also recommend restaurants to users based on their inputs.
-- [ ] Add a calorie/nutrients tracker.
-- [ ] Add a login/sign up service.
-- [ ] Use additional datasets to enhance results.
-- [ ] Fine tune the existing code and wrap up to produce a finished product.
+- [ ] Added more filters and also recommend restaurants to users based on their inputs.
+- [ ] Added vegeterian/vegan filters, etc.
+- [ ] Added a login/sign up service.
+- [ ] Added additional dataset to recommend restaurant as per the desired cuisine.
+- [ ] Added filter for rating recipe.
+- [ ] Dockerized the application.
+- [ ] Fine tuned the existing code and wrapped up to produce a finished product.
 
 ## :page_facing_up: License <a name="License"></a>
 
