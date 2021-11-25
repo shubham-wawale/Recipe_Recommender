@@ -198,13 +198,13 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
 ### Phase 3:
 
-- [ ] Added more filters and also recommend restaurants to users based on their inputs.
-- [ ] Added vegeterian/vegan filters, etc.
-- [ ] Added a login/sign up service.
-- [ ] Added additional dataset to recommend restaurant as per the desired cuisine.
-- [ ] Added filter for rating recipe.
-- [ ] Dockerized the application.
-- [ ] Fine tuned the existing code and wrapped up to produce a finished product.
+- [x] Added more filters and also recommend restaurants to users based on their inputs.
+- [x] Added vegeterian/vegan filters, etc.
+- [x] Added a login/sign up service.
+- [x] Added additional dataset to recommend restaurant as per the desired cuisine.
+- [x] Added filter for rating recipe.
+- [x] Dockerized the application.
+- [x] Fine tuned the existing code and wrapped up to produce a finished product.
 
 ## :page_facing_up: License <a name="License"></a>
 
