@@ -34,8 +34,7 @@ const Recipe = (recipe) => {
             <h3>Ingredients: </h3>
             <br />
             <ul class="result_ingredients"> {ingredients_seperated} </ul>
-            <h3>Cooking Time: </h3>
-            <br />
+            <h3>Cooking Time (in Mins): </h3>
             <ul class="result_cookingtime"> {cooking_time} </ul>
             <h3>Instructions: </h3>
             <br />
