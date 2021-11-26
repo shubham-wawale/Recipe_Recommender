@@ -4,23 +4,23 @@
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
 [![DOI](https://zenodo.org/badge/422306860.svg)](https://zenodo.org/badge/latestdoi/422306860)
-[![GitHub issues open](https://img.shields.io/github/issues/PvPatel-1001/Recipe_Recommender)](https://github.com/PvPatel-1001/Recipe_Recommender/issues)
-[![GitHub stars](https://badgen.net/github/stars/PvPatel-1001/Recipe_Recommender)](https://badgen.net/github/stars/PvPatel-1001/Recipe_Recommender)
-![Github closes issues](https://img.shields.io/github/issues-closed-raw/PvPatel-1001/Recipe_Recommender)
-[![Build Status](https://app.travis-ci.com/PvPatel-1001/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/PvPatel-1001/Recipe_Recommender)
-[![codecov](https://codecov.io/gh/PvPatel-1001/Recipe_Recommender/branch/master/graph/badge.svg?token=2ZYDS70UG8)](https://codecov.io/gh/PvPatel-1001/Recipe_Recommender)
-[![Respost - Write comment to new Issue event](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/Respost.yml)
-[![Check the source code](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/codeFormatter.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/codeFormatter.yml)
-![GitHub contributors](https://img.shields.io/github/contributors/PvPatel-1001/Recipe_Recommender)
-[![Close as a feature](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/close_as_a_feature.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/close_as_a_feature.yml)
-[![Code Formatter and Syntax Check](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
-[![Running Code Coverage](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/coverage.yml)
-[![Style Checker and Prettify Code](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml)
-[![Greetings](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/greetings.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/greetings.yml)
-![Lines of code](https://img.shields.io/tokei/lines/github/PvPatel-1001/Recipe_Recommender)
-[![Labeler](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/label.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/label.yml)
-[![Mark stale issues and pull requests](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/PvPatel-1001/Recipe_Recommender/actions/workflows/stale.yml)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/PvPatel-1001/Recipe_Recommender)
+[![GitHub issues open](https://img.shields.io/github/issues/het-patel99/Recipe_Recommender)](https://github.com/het-patel99/Recipe_Recommender/issues)
+[![GitHub stars](https://badgen.net/github/stars/het-patel99/Recipe_Recommender)](https://badgen.net/github/stars/het-patel99/Recipe_Recommender)
+![Github closes issues](https://img.shields.io/github/issues-closed-raw/het-patel99/Recipe_Recommender)
+[![Build Status](https://app.travis-ci.com/het-patel99/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/het-patel99/Recipe_Recommender)
+[![codecov](https://codecov.io/gh/het-patel99/Recipe_Recommender/branch/master/graph/badge.svg?token=2ZYDS70UG8)](https://codecov.io/gh/het-patel99/Recipe_Recommender)
+[![Respost - Write comment to new Issue event](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Respost.yml)
+[![Check the source code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml)
+![GitHub contributors](https://img.shields.io/github/contributors/het-patel99/Recipe_Recommender)
+[![Close as a feature](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/close_as_a_feature.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/close_as_a_feature.yml)
+[![Code Formatter and Syntax Check](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
+[![Running Code Coverage](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/coverage.yml)
+[![Style Checker and Prettify Code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml)
+[![Greetings](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/greetings.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/greetings.yml)
+![Lines of code](https://img.shields.io/tokei/lines/github/het-patel99/Recipe_Recommender)
+[![Labeler](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/label.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/label.yml)
+[![Mark stale issues and pull requests](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/het-patel99/Recipe_Recommender)
 
 https://user-images.githubusercontent.com/25223347/140403709-a062e7c5-4500-49d4-9758-aea9e5fa5442.mp4
 
@@ -196,14 +196,15 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 - [x] Improved the code test coverage by adding more specialized test cases.
 - [x] Added demo video which shows how the user will interact with our software.
 
-### Phase 3: Scope of improvement:
+### Phase 3:
 
-- [ ] Classify recipes into vegan / vegetarian / non-vegetarian categorizations.
-- [ ] Add more filters and also recommend restaurants to users based on their inputs.
-- [ ] Add a calorie/nutrients tracker.
-- [ ] Add a login/sign up service.
-- [ ] Use additional datasets to enhance results.
-- [ ] Fine tune the existing code and wrap up to produce a finished product.
+- [x] Added more filters and also recommend restaurants to users based on their inputs.
+- [x] Added vegeterian/vegan filters, etc.
+- [x] Added a login/sign up service.
+- [x] Added additional dataset to recommend restaurant as per the desired cuisine.
+- [x] Added filter for rating recipe.
+- [x] Dockerized the application.
+- [x] Fine tuned the existing code and wrapped up to produce a finished product.
 
 ## :page_facing_up: License <a name="License"></a>
 
@@ -213,16 +214,17 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 
 Please see our [CONTRIBUTING.md](https://github.com/PvPatel-1001/Recipe_Recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
-## Contributors
+## Contributors Phase - 3
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ineelshah"><img src="https://avatars.githubusercontent.com/u/40118578?v=4" width="75px;" alt=""/><br /><sub><b>Neel Shah</b></sub></a></td>
-    <td align="center"><a href="https://github.com/PvPatel-1001"><img src="https://avatars.githubusercontent.com/u/69849039?v=4" width="75px;" alt=""/><br /><sub><b>Parth Patel</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/ameyatathavadkar"><img src="https://avatars.githubusercontent.com/u/25223347?v=4" width="75px;" alt=""/><br /><sub><b>Ameya Tathavadkar</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/jayrshah98"><img src="https://avatars.githubusercontent.com/u/41386638?s=400&u=b323434b42507c474829a804556d69da82d48c3f&v=4" width="75px;" alt=""/><br /><sub><b>Jay Shah</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Harshil-Shah99"><img src="https://avatars.githubusercontent.com/u/38115399?v=4" width="75px;" alt=""/><br /><sub><b>Harshil Shah</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/het-patel99"><img src="https://avatars.githubusercontent.com/u/44945317?s=400&u=c05d1c4c8cf27c526d9d8c72b0725255500591cd&v=4" width="75px;" alt=""/><br /><sub><b>Het Patel</b></sub></a></td>
+    <td align="center"><a href="https://github.com/hvudeshi"><img src="https://avatars.githubusercontent.com/u/22682878?v=4" width="75px;" alt=""/><br /><sub><b>Hardik Udeshi</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/sal0ni"><img src="https://avatars.githubusercontent.com/u/37000199?v=4" width="75px;" alt=""/><br /><sub><b>Saloni Mahatma</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/kalgeekotak99"><img src="https://avatars.githubusercontent.com/u/43135408?v=4" width="75px;" alt=""/><br /><sub><b>Kalgee Kotak</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Vineet2311"><img src="https://avatars.githubusercontent.com/u/89501442?v=4" width="75px;" alt=""/><br /><sub><b>Vineet Chheda</b></sub></a><br /></td>
   </tr>
 </table>
+
 
 <p align="center">Made with ❤️ on GitHub.</p>
