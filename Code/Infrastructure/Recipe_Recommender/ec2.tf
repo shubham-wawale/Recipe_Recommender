@@ -36,7 +36,7 @@ sudo npm install -g n
 sudo npm i -g npx
 mkdir project
 cd project
-git clone https://github.com/PvPatel-1001/Recipe_Recommender.git
+git clone https://github.com/het-patel99/Recipe_Recommender.git
 cd Recipe_Recommender/Code/backend
 sudo sed -i 's/##gmail_password##/${var.email_password}/g' /project/Recipe_Recommender/Code/backend/dao/mail_param.js
 sudo npm install nodemailer
@@ -84,7 +84,7 @@ sudo npm install -g n
 sudo npm i -g npx
 mkdir project
 cd project
-git clone https://github.com/PvPatel-1001/Recipe_Recommender.git
+git clone https://github.com/het-patel99/Recipe_Recommender.git
 cd Recipe_Recommender/Code/frontend
 sudo sed -i 's/##serverIp##/${aws_instance.backend-webserver.public_ip}:5000/g' /project/Recipe_Recommender/Code/frontend/src/apis/recipeDB.js
 npm install
