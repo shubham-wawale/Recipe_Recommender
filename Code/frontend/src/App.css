@@ -285,7 +285,7 @@ li.recipe_ingredient_item{
   transition: transform .5s ease;
 }
 
-li.recipe_ingredient_item: hover{
+li.recipe_ingredient_item:hover{
 transform: scale(1.1);
 }
 
@@ -295,11 +295,52 @@ ul.result_cookingtime{
 
 }
 
+ul.result_diettype{
+
+  
+
+}
+
+ul.result_reciperating{
+
+  
+
+}
+
+
+
 
 ul.result_instructions{
 
   
 
+}
+
+ul.result_restaurants{
+
+  display:flow-root;
+
+}
+
+/* Styling for the individial list items in recipe ingredient list*/
+li.recipe_restaurant_item{
+
+  /*background-color: #AA0000;
+  color: white;*/
+
+  border: 2px solid rgb(165, 161, 161);
+  border-radius: 4px;
+  border-color: black;
+  background-color: brown;
+  opacity: 0.5;
+  color: white;
+  font-size: medium;
+  border-width: initial;
+  transition: transform .5s ease;
+}
+
+li.recipe_restaurant_item:hover{
+transform: scale(1.1);
 }
 
 /* Styling for the individial list items in recipe ingredient list*/
