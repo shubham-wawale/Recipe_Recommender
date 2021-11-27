@@ -65,7 +65,10 @@ export default class RecipesDAO {
       for (var j = 1; j <= recipesList.length; j++) {
         str_mail += "\nRecipe " + j + ": \n";
         str_mail += recipesList[j - 1]["TranslatedRecipeName"] + "\n";
-        str_mail += "Youtube Link: https://www.youtube.com/results?search_query=" +  recipesList[j - 1]["TranslatedRecipeName"] + "\n\n";
+        str_mail +=
+          "Youtube Link: https://www.youtube.com/results?search_query=" +
+          recipesList[j - 1]["TranslatedRecipeName"] +
+          "\n\n";
       }
 
       if (flagger == "true") {
