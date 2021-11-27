@@ -76,7 +76,7 @@ export default class RecipesDAO {
           port: 465,
           secure: true,
           auth: {
-            user: "srijas.alerts@gmail.com",
+            user: "group12srijas@gmail.com",
             pass: pass,
           },
         });
