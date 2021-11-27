@@ -12,6 +12,7 @@ df1 = df1.fillna('')
 for ind1, row1 in df1.iterrows():
 
 	cnt+=1
+	row1['Cleaned-Ingredients'] = row1['Cleaned-Ingredients'].lower()
 	
 	df1.at[ind1, 'Recipe-rating'] = str(random.randrange(1, 5))
 
@@ -42,9 +43,9 @@ for ind1, row1 in df1.iterrows():
 	df1.at[ind1, 'Restaurant'] = restaurant
 	df1.at[ind1, 'Restaurant-Location'] = location.strip('\n')
 
-	if 'chicken' in row1['Cleaned-Ingredients'] or 'fish' in row1['Cleaned-Ingredients'] or 'egg' in row1['Cleaned-Ingredients']:
+	if 'chicken' in row1['Cleaned-Ingredients'] or 'fish' in row1['Cleaned-Ingredients']:
 		df1.at[ind1, 'Diet-type'] = "Non-Vegetarian"
-	elif 'milk' in row1['Cleaned-Ingredients'] or 'paneer' in row1['Cleaned-Ingredients'] or 'curd' in row1['Cleaned-Ingredients'] or 'butter' in row1['Cleaned-Ingredients'] or 'ghee' in row1['Cleaned-Ingredients']:
+	elif 'milk' in row1['Cleaned-Ingredients'] or 'paneer' in row1['Cleaned-Ingredients'] or 'curd' in row1['Cleaned-Ingredients'] or 'butter' in row1['Cleaned-Ingredients'] or 'ghee' in row1['Cleaned-Ingredients'] or (row1['Cleaned-Ingredients'].count('egg') != row1['Cleaned-Ingredients'].count('eggsplant')) or (row1['Cleaned-Ingredients'].count('egg') != row1['Cleaned-Ingredients'].count('eggplant')):
 		df1.at[ind1, 'Diet-type'] = "Vegetarian"
 	else:
 		df1.at[ind1, 'Diet-type'] = "Vegan"
