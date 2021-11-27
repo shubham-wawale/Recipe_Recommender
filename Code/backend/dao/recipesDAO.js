@@ -82,7 +82,7 @@ export default class RecipesDAO {
         });
 
         var mailOptions = {
-          from: "srijas.alerts@gmail.com",
+          from: "group12srijas@gmail.com",
           to: email,
           subject: "Your Recommended Recipes!",
           text: str_mail,
