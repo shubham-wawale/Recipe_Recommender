@@ -14,12 +14,11 @@ const Recipe = (recipe) => {
   var restaurant = recipe.recipe["Restaurant"].split("%");
   var location = recipe.recipe["Restaurant-Location"].split("%");
   var restaurant_location = [];
-  for (let i = 0; i < restaurant.length; i++) {
-    restaurant_location.push(restaurant[i] + ": " + location[i]);
+  for(let i=0; i<restaurant.length; i++)
+  {
+      restaurant_location.push(restaurant[i]+": "+location[i]);
   }
-  var youtube_videos =
-    "https://www.youtube.com/results?search_query=" +
-    recipe.recipe["TranslatedRecipeName"];
+  var youtube_videos = "https://www.youtube.com/results?search_query="+recipe.recipe['TranslatedRecipeName'];
   // mapping each ingredient to be displayes as a list item
   ingredients_seperated = ingredients_seperated.map((ingredient) => (
     <li class="recipe_ingredient_item"> {ingredient}</li>
