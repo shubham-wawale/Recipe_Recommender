@@ -24,7 +24,7 @@ function test_connectivity_func() {
   // See httpsdocs.mongodb.comecosystemdriversnode for more details
 
   const uri =
-    "mongodb+srv://hselvar2:hselvar2@cluster0.e7zgr.mongodb.net/recipe?retryWrites=true&w=majority";
+    "mongodb+srv://het-patel99:het-patel99@cluster0.6weej.mongodb.net/recipe_recommender?retryWrites=true&w=majority";
   var result = false;
   try {
     // Connect to the MongoDB cluster
