@@ -37,7 +37,7 @@ export default class RecipesDAO {
         console.log(str);
         query = { "Cleaned-Ingredients": { $regex: str } };
         query["Cuisine"] = filters["Cuisine"];
-       
+
         var email = filters["Email"];
         var flagger = filters["Flag"];
         console.log(email);
