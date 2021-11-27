@@ -1,4 +1,5 @@
 ## STA(R) GEN: A STAR RECIPE GENERATOR 🍔
+
 <p> align="center">
 ![RECIPE RECOMMENDER](https://user-images.githubusercontent.com/40118578/139968487-1150b64e-d8d3-4f2e-a5d3-9a48d19ff64b.gif)
 </p>
