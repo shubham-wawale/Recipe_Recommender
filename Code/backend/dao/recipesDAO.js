@@ -37,14 +37,11 @@ export default class RecipesDAO {
         console.log(str);
         query = { "Cleaned-Ingredients": { $regex: str } };
         query["Cuisine"] = filters["Cuisine"];
-        // <<<<<<< HEAD
+       
         var email = filters["Email"];
         var flagger = filters["Flag"];
         console.log(email);
         console.log(flagger);
-
-        // =======
-        // >>>>>>> 4bd7a622fe3843494d0ec22de41808bd7d51e301
       }
     }
 
@@ -76,15 +73,15 @@ export default class RecipesDAO {
           port: 465,
           secure: true,
           auth: {
-            user: "group12srijas@gmail.com",
+            user: "group12recipe@gmail.com",
             pass: pass,
           },
         });
 
         var mailOptions = {
-          from: "group12srijas@gmail.com",
+          from: "group12recipe@gmail.com",
           to: email,
-          subject: "Your Recommended Recipes!",
+          subject: "Recommended Recipes! Enjoy your meal!!",
           text: str_mail,
         };
 
