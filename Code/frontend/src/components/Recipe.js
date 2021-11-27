@@ -11,13 +11,20 @@ const Recipe = (recipe) => {
   var cooking_time = recipe.recipe["TotalTimeInMins"];
   var recipe_rating = recipe.recipe["Recipe-rating"];
   var diet_type = recipe.recipe["Diet-type"];
-  var restaurant = recipe.recipe["Restaurant"];
-  var location = recipe.recipe["Restaurant-Location"];
-  var restaurant_location = restaurant + ':' + location;
+  var restaurant = recipe.recipe["Restaurant"].split("%");
+  var location = recipe.recipe["Restaurant-Location"].split("%");
+  var restaurant_location = [];
+  for(let i=0; i<restaurant.length; i++)
+  {
+      restaurant_location.push(restaurant[i]+": "+location[i]);
+  }
   var youtube_videos = "https://www.youtube.com/results?search_query="+recipe.recipe['TranslatedRecipeName'];
   // mapping each ingredient to be displayes as a list item
   ingredients_seperated = ingredients_seperated.map((ingredient) => (
     <li class="recipe_ingredient_item"> {ingredient}</li>
+  ));
+  restaurant_location = restaurant_location.map((restaurantitem) => (
+    <li class="recipe_restaurant_item"> {restaurantitem}</li>
   ));
   <p>{translated_instruction}</p>;
 
@@ -54,6 +61,7 @@ const Recipe = (recipe) => {
             <ol class="result_instructions"> {translated_instruction} </ol>
             <h3>Videos: </h3>
             <a href={youtube_videos}> {youtube_videos} </a>
+            <br />
             <img
               src={recipe.recipe["image-url"]}
               alt={recipe.recipe.TranslatedRecipeName}
