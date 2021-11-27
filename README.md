@@ -226,5 +226,4 @@ Please see our [CONTRIBUTING.md](https://github.com/PvPatel-1001/Recipe_Recommen
   </tr>
 </table>
 
-
 <p align="center">Made with ❤️ on GitHub.</p>
