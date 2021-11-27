@@ -20,7 +20,7 @@ jobs:
     steps:
     - uses: actions/stale@v3
       with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        repo-token: ${{ secrets.GIT_TOKEN }}
         stale-issue-message: 'This is a stale issue and the bot will clear it up asap!'
         stale-pr-message: 'This is a stale pull request and the bot will clear it up asap!'
         stale-issue-label: 'no-issue-activity'

@@ -10,4 +10,4 @@ jobs:
           title: Custom comment added using Respost
           body: "Hello! Respost is here. This issue will be addressed by our contributors soon. Keep commenting and contributing."
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
