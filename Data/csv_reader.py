@@ -55,12 +55,10 @@ for ind1, row1 in df1.iterrows():
 	for ind2, row2 in df2.iterrows():
         restaurant = restaurant_data(row1['Cuisine'], row2['Cuisine'], row2['Restaurant'], restaurant)
         location = location_data(row1['Cuisine'], row2['Cuisine'], row2['Location'], location)
-        
-	restaurant = restaurant[:len(restaurant)-2]
-	location = location[:len(location)-2]
-
-	df1.at[ind1, 'Restaurant'] = restaurant
-	df1.at[ind1, 'Restaurant-Location'] = location.strip('\n')
+    restaurant = restaurant[:len(restaurant)-2]
+    location = location[:len(location)-2]
+    df1.at[ind1, 'Restaurant'] = restaurant
+    df1.at[ind1, 'Restaurant-Location'] = location.strip('\n')
     df1.at[ind1, 'Diet-type'] = diet_type_data(row1['Cleaned-Ingredients'])
 
 df1.to_csv('final_recipe_recommender.csv', index=False)
