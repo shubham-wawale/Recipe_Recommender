@@ -26,7 +26,7 @@ jobs:
       run: |
           cd Code/backend
           npm install nodemailer
-          npm install --save-dev jest
+          npm install
           npx nodemon &
 
     - name: Run the tests
