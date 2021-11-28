@@ -29,15 +29,5 @@
     "jest": "^27.3.1",
     "prettier": "^2.4.1",
     "supertest": "^6.1.6"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "!**/__tests__/**"
-    ],
-    "coveragePathIgnorePatterns": [
-      "/node_modules/",
-      "package.json",
-      "package-lock.json"
-    ]
   }
 }
