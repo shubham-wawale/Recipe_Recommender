@@ -32,7 +32,7 @@
   },
    "jest": {
     "collectCoverageFrom": [
-      "__tests__/*.{js,jsx}"
+      "/__tests__/*.{js,jsx}"
     ],
     "coveragePathIgnorePatterns": [
       "/node_modules/",
