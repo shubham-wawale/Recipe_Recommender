@@ -26,13 +26,13 @@ jobs:
       run: |
           cd Code/backend
           npm install nodemailer
-          npm install
+          npm install --save-dev jest
           npx nodemon &
 
     - name: Run the tests
       run: |
           cd Code/backend
-          npm test -- --coverage
+          npx test -- --coverage
           
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
