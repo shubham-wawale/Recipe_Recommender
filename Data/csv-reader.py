@@ -4,10 +4,43 @@ import random
 df1 = pd.read_csv('Cleaned_Indian_Food_Dataset.csv')
 df2 = pd.read_csv('Cuisine.csv')
 
-
 cnt = 0
 
 df1 = df1.fillna('')
+
+def restaurant_data(r1_cuisine, r2_cuisine, r2_restaurant, r):
+    if r2_cuisine == r1_cuisine:
+        r = r + str(r2_restaurant) + "% "
+    elif r2_cuisine in r1_cuisine:
+        r = r + str(r2_restaurant) + "% "
+    elif r1_cuisine == 'Punjabi' and r2_cuisine == 'North Indian':
+        r = r + str(r2_restaurant) + "% "
+    elif r1_cuisine == 'Indian' and r2_cuisine in ['South Indian', 'Gujarati', 'North Indian']:
+        r = r + str(r2_restaurant) + "% "
+    elif r2['Cuisine'] == 'South Indian':
+        r = r + str(r2_restaurant) + "% "
+    return r
+
+def diet_type_data(r1_cleaned_ingredients):
+    if 'chicken' in r1_cleaned_ingredients or 'fish' in r1_cleaned_ingredients:
+		return "Non-Vegetarian"
+	elif 'milk' in r1_cleaned_ingredients or 'paneer' in r1_cleaned_ingredients or 'curd' in r1_cleaned_ingredients or 'butter' in r1_cleaned_ingredients or 'ghee' in r1_cleaned_ingredients or (r1_cleaned_ingredients.count('egg') != r1_cleaned_ingredients.count('eggsplant')) or (r1_cleaned_ingredients.count('egg') != r1_cleaned_ingredients.count('eggplant')):
+		return "Vegetarian"
+	else:
+		return "Vegan"
+
+def location_data(r1_cuisine, r2_cuisine, r2_location, l):
+    if r2_cuisine == r1_cuisine:
+        l = l + str(r2_location) + "% "
+    elif r2_cuisine in r1_cuisine:
+        l = l + str(r2_location) + "% "
+    elif r1_cuisine == 'Punjabi' and r2_cuisine == 'North Indian':
+        l = l+ str(r2_location) + "% "
+    elif r1_cuisine == 'Indian' and r2_cuisine in ['South Indian', 'Gujarati', 'North Indian']:
+        l = l+ str(r2_location) + "% "  
+    elif r2['Cuisine'] == 'South Indian':
+        l = l+ str(r2_location) + "% "
+    return l
 
 for ind1, row1 in df1.iterrows():
 
@@ -18,37 +51,16 @@ for ind1, row1 in df1.iterrows():
 
 	restaurant = ""
 	location = ""
-
+    
 	for ind2, row2 in df2.iterrows():
-
-		if row2['Cuisine'] == row1['Cuisine']:
-			restaurant = restaurant + str(row2['Restaurant']) + "% "
-			location = location + str(row2['Location']) + "% "
-		elif row2['Cuisine'] in row1['Cuisine']:
-			restaurant = restaurant + str(row2['Restaurant']) + "% "
-			location = location + str(row2['Location']) + "% "
-		elif row1['Cuisine'] == 'Punjabi' and row2['Cuisine'] == 'North Indian':
-			restaurant = restaurant + str(row2['Restaurant']) + "% "
-			location = location + str(row2['Location']) + "% "
-		elif row1['Cuisine'] == 'Indian' and row2['Cuisine'] in ['South Indian', 'Gujarati', 'North Indian']:
-			restaurant = restaurant + str(row2['Restaurant']) + "% "
-			location = location + str(row2['Location']) + "% "
-		elif row2['Cuisine'] == 'South Indian':
-			restaurant = restaurant + str(row2['Restaurant']) + "% "
-			location = location + str(row2['Location']) + "% "
-
+        restaurant = restaurant_data(row1['Cuisine'], row2['Cuisine'], row2['Restaurant'], restaurant)
+        location = location_data(row1['Cuisine'], row2['Cuisine'], row2['Location'], location)
+        
 	restaurant = restaurant[:len(restaurant)-2]
 	location = location[:len(location)-2]
 
 	df1.at[ind1, 'Restaurant'] = restaurant
 	df1.at[ind1, 'Restaurant-Location'] = location.strip('\n')
-
-	if 'chicken' in row1['Cleaned-Ingredients'] or 'fish' in row1['Cleaned-Ingredients']:
-		df1.at[ind1, 'Diet-type'] = "Non-Vegetarian"
-	elif 'milk' in row1['Cleaned-Ingredients'] or 'paneer' in row1['Cleaned-Ingredients'] or 'curd' in row1['Cleaned-Ingredients'] or 'butter' in row1['Cleaned-Ingredients'] or 'ghee' in row1['Cleaned-Ingredients'] or (row1['Cleaned-Ingredients'].count('egg') != row1['Cleaned-Ingredients'].count('eggsplant')) or (row1['Cleaned-Ingredients'].count('egg') != row1['Cleaned-Ingredients'].count('eggplant')):
-		df1.at[ind1, 'Diet-type'] = "Vegetarian"
-	else:
-		df1.at[ind1, 'Diet-type'] = "Vegan"
-
+    df1.at[ind1, 'Diet-type'] = diet_type_data(row1['Cleaned-Ingredients'])
 
 df1.to_csv('final_recipe_recommender.csv', index=False)
