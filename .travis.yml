@@ -4,7 +4,9 @@ node_js:
 install:
   - cd Code/backend
   - echo "installing"
+  - npm install nodemailer
   - npm install
+  - npx nodemon &
 script:
   - echo "running tests"
   - npm test
