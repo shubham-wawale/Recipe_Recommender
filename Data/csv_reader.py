@@ -24,10 +24,10 @@ def restaurant_data(r1_cuisine, r2_cuisine, r2_restaurant, r):
 def diet_type_data(r1_cleaned_ingredients):
     if 'chicken' in r1_cleaned_ingredients or 'fish' in r1_cleaned_ingredients:
         return "Non-Vegetarian"
-	elif 'milk' in r1_cleaned_ingredients or 'paneer' in r1_cleaned_ingredients or 'curd' in r1_cleaned_ingredients or 'butter' in r1_cleaned_ingredients or 'ghee' in r1_cleaned_ingredients or (r1_cleaned_ingredients.count('egg') != r1_cleaned_ingredients.count('eggsplant')) or (r1_cleaned_ingredients.count('egg') != r1_cleaned_ingredients.count('eggplant')):
-		return "Vegetarian"
-	else:
-		return "Vegan"
+    elif 'milk' in r1_cleaned_ingredients or 'paneer' in r1_cleaned_ingredients or 'curd' in r1_cleaned_ingredients or 'butter' in r1_cleaned_ingredients or 'ghee' in r1_cleaned_ingredients or (r1_cleaned_ingredients.count('egg') != r1_cleaned_ingredients.count('eggsplant')) or (r1_cleaned_ingredients.count('egg') != r1_cleaned_ingredients.count('eggplant')):
+        return "Vegetarian"
+    else:
+        return "Vegan"
 
 def location_data(r1_cuisine, r2_cuisine, r2_location, l):
     if r2_cuisine == r1_cuisine:
