@@ -10,5 +10,5 @@ def test_recipe2() :
 
 def test_recipe3() :
     result = requests.get("http://localhost:5000/api/v1/recipes?CleanedIngredients=Mango&Cuisine=Indian").json()
-    assert len(result['recipes'][0]['TotalTimeInMins']) != 0
+    assert result['recipes'][0]['TotalTimeInMins'] != 0
     
