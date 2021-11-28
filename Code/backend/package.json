@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --coverage",
+    "test": "set CI=true && jest --coverage",
     "lint": "eslint 'dao/**.js'",
     "format": "prettier --check ./dao",
     "format:fix": "prettier --write ./dao"
@@ -29,5 +29,19 @@
     "jest": "^27.3.1",
     "prettier": "^2.4.1",
     "supertest": "^6.1.6"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/serviceWorker.js",
+      "!**/index.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "package.json",
+      "package-lock.json"
+    ]
   }
 }
