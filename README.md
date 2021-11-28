@@ -206,7 +206,7 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 - [x] Dockerized the application.
 - [x] Fine tuned the existing code and wrapped up to produce a finished product.
 - [x] Changed email format of the recipe suggestions.
-- [x]  Added cooking time filter. 
+- [x] Added cooking time filter.
 
 ## :page_facing_up: License <a name="License"></a>
 
