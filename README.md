@@ -20,7 +20,7 @@
 [![Mark stale issues and pull requests](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/het-patel99/Recipe_Recommender)
 
-https://user-images.githubusercontent.com/25223347/140403709-a062e7c5-4500-49d4-9758-aea9e5fa5442.mp4
+https://user-images.githubusercontent.com/37000199/143949815-6ddcb268-3f50-4219-90d4-a025efee050e.mp4
 
    <h3>🍔 Our motto: Eat good, Be Healthy, Stay Happy 🍔</h3>
 
@@ -193,3 +193,7 @@ Please see our [CONTRIBUTING.md](https://github.com/PvPatel-1001/Recipe_Recommen
 </table>
 
 <p align="center">Made with ❤️ on GitHub.</p>
+
+
+
+
