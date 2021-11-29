@@ -12,7 +12,6 @@
 [![Respost - Write comment to new Issue event](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Respost.yml)
 [![Check the source code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml)
 ![GitHub contributors](https://img.shields.io/github/contributors/het-patel99/Recipe_Recommender)
-[![Close as a feature](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/close_as_a_feature.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/close_as_a_feature.yml)
 [![Code Formatter and Syntax Check](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
 [![Running Code Coverage](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/coverage.yml)
 [![Style Checker and Prettify Code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml)
