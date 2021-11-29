@@ -15,7 +15,7 @@ install:
   - npm install
   - npx nodemon &
 script:
-  - cd test
+  - cd ../../test
   - pytest
   
 
