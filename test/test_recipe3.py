@@ -24,3 +24,7 @@ def test_recipe5() :
 def test_recipe6() :
     result = requests.get("http://localhost:5000/api/v1/recipes?CleanedIngredients=Mango&Cuisine=Indian").json()
     assert (result['recipes'][0]['Restaurant-Location']) != 0        
+    
+def test_recipe7() :
+    result = requests.get("http://localhost:5000/api/v1/recipes?CleanedIngredients=Mango&Cuisine=Indian").json()
+    assert (result['recipes'][0]['image-url']) != 0        
