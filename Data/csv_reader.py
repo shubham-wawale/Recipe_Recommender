@@ -44,13 +44,11 @@ def location_data(r1_cuisine, r2_cuisine, r2_location, l):
 
 for ind1, row1 in df1.iterrows():
 
-	cnt+=1
-	row1['Cleaned-Ingredients'] = row1['Cleaned-Ingredients'].lower()
-	
-	df1.at[ind1, 'Recipe-rating'] = str(random.randrange(1, 5))
-
-	restaurant = ""
-	location = ""
+    cnt+=1
+    row1['Cleaned-Ingredients'] = row1['Cleaned-Ingredients'].lower()
+    df1.at[ind1, 'Recipe-rating'] = str(random.randrange(1, 5))
+    restaurant = ""
+    location = ""
     
     for ind2, row2 in df2.iterrows():
         restaurant = restaurant_data(row1['Cuisine'], row2['Cuisine'], row2['Restaurant'], restaurant)
