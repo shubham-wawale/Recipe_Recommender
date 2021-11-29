@@ -12,3 +12,6 @@ def test_location_data():
 
 def test_diet_type_data_Non_Veg():
 		assert "Non-Vegetarian" in diet_type_data("chicken")
+
+def test_diet_type_data_Veg():
+		assert "Vegetarian" in diet_type_data("milk")
