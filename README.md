@@ -18,7 +18,6 @@
 [![Style Checker and Prettify Code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml)
 [![Greetings](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/greetings.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/greetings.yml)
 ![Lines of code](https://img.shields.io/tokei/lines/github/het-patel99/Recipe_Recommender)
-[![Labeler](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/label.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/label.yml)
 [![Mark stale issues and pull requests](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/het-patel99/Recipe_Recommender)
 
