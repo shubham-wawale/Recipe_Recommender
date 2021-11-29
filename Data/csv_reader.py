@@ -1,15 +1,7 @@
 import pandas as pd
 import random
 
-def csv_read():
-    df1 = pd.read_csv('Cleaned_Indian_Food_Dataset.csv')
-    df2 = pd.read_csv('Cuisine.csv')
-
-    cnt = 0
-
-    df1 = df1.fillna('')
-
-    def restaurant_data(r1_cuisine, r2_cuisine, r2_restaurant, r):
+def restaurant_data(r1_cuisine, r2_cuisine, r2_restaurant, r):
         if r2_cuisine == r1_cuisine:
             r = r + str(r2_restaurant) + "% "
         elif r2_cuisine in r1_cuisine:
@@ -21,8 +13,8 @@ def csv_read():
         elif r2['Cuisine'] == 'South Indian':
             r = r + str(r2_restaurant) + "% "
         return r
-
-    def diet_type_data(r1_cleaned_ingredients):
+        
+def diet_type_data(r1_cleaned_ingredients):
         if 'chicken' in r1_cleaned_ingredients or 'fish' in r1_cleaned_ingredients:
             return "Non-Vegetarian"
         elif 'milk' in r1_cleaned_ingredients or 'paneer' in r1_cleaned_ingredients or 'curd' in r1_cleaned_ingredients or 'butter' in r1_cleaned_ingredients or 'ghee' in r1_cleaned_ingredients or (r1_cleaned_ingredients.count('egg') != r1_cleaned_ingredients.count('eggsplant')) or (r1_cleaned_ingredients.count('egg') != r1_cleaned_ingredients.count('eggplant')):
@@ -30,7 +22,7 @@ def csv_read():
         else:
             return "Vegan"
 
-    def location_data(r1_cuisine, r2_cuisine, r2_location, l):
+def location_data(r1_cuisine, r2_cuisine, r2_location, l):
         if r2_cuisine == r1_cuisine:
             l = l + str(r2_location) + "% "
         elif r2_cuisine in r1_cuisine:
@@ -42,6 +34,14 @@ def csv_read():
         elif r2['Cuisine'] == 'South Indian':
             l = l+ str(r2_location) + "% "
         return l
+
+def csv_read():
+    df1 = pd.read_csv('Cleaned_Indian_Food_Dataset.csv')
+    df2 = pd.read_csv('Cuisine.csv')
+
+    cnt = 0
+
+    df1 = df1.fillna('')
 
     for ind1, row1 in df1.iterrows():
 
