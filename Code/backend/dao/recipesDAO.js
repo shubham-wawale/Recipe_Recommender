@@ -67,7 +67,7 @@ export default class RecipesDAO {
         str_mail += recipesList[j - 1]["TranslatedRecipeName"] + "\n";
         str_mail +=
           "Youtube Link: https://www.youtube.com/results?search_query=" +
-          recipesList[j - 1]["TranslatedRecipeName"] +
+          recipesList[j - 1]["TranslatedRecipeName"].replace(/ /g, "+") +
           "\n\n";
       }
 
