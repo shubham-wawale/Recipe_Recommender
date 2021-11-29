@@ -15,3 +15,6 @@ def test_diet_type_data_Non_Veg():
 
 def test_diet_type_data_Veg():
 		assert "Vegetarian" in diet_type_data("milk")
+
+def test_diet_type_data_Vegan():
+		assert "Vegan" in diet_type_data("oats")
