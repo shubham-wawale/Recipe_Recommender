@@ -115,7 +115,6 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
     </td> 
   </tr>
 
-
    <tr style="background: #010203;"> 
     <td valign="left">
      <p style="color: #FF7A59">  
