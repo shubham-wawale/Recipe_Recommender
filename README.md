@@ -98,8 +98,6 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
 <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
 
- 
-  
   <tr style="background: #010203;"> 
     <td valign="left">
      <p style="color: #FF7A59"> Previous Work
@@ -116,7 +114,7 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
       </a> 
     </td> 
   </tr>
-  
+
 
    <tr style="background: #010203;"> 
     <td valign="left">
