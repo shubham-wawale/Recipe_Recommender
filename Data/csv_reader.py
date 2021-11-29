@@ -1,4 +1,4 @@
-import pandas as pd 
+import pandas as pd
 import random
 
 df1 = pd.read_csv('Cleaned_Indian_Food_Dataset.csv')
