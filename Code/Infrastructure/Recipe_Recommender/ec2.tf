@@ -91,7 +91,6 @@ npm install
 npm start
 EOF
 }
-
 # describing the security group for ec2 instances
 resource "aws_security_group" "ec2-sg" {
   name        = "security-group"
