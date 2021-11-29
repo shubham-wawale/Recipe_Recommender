@@ -52,7 +52,7 @@ for ind1, row1 in df1.iterrows():
 	restaurant = ""
 	location = ""
     
-	for ind2, row2 in df2.iterrows():
+    for ind2, row2 in df2.iterrows():
         restaurant = restaurant_data(row1['Cuisine'], row2['Cuisine'], row2['Restaurant'], restaurant)
         location = location_data(row1['Cuisine'], row2['Cuisine'], row2['Location'], location)
     restaurant = restaurant[:len(restaurant)-2]
