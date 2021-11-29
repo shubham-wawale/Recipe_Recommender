@@ -96,84 +96,51 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
 <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
 
-  <tr style="background: #010203 ">
-    <td valign="left"> 
-      <p style="color: #FF7A59"> Previous work
+  <tr style="background: #010203;"> 
+    <td valign="left">
+     <p style="color: #FF7A59"> Previous Work
       </p>
-      <a href="./images/prev_stage1.jpg"> 
-        <img src="./images/prev_stage1.jpg" >      
-      </a>
-    </td>
-    <td valign="left"> 
-      <p style="color: #FF7A59"> Current work ( Improved UI)
+      <a href="./images/current_stage5.png">
+        <img src="./images/current_stage5.png"> 
+      </a> 
+    </td> 
+    <td valign="left">
+     <p style="color: #FF7A59"> Current Work (Updated email format)
       </p>
-      <a href="./images/current_stage1.png">
-        <img src="./images/current_stage1.png"> 
-      </a>
-    </td>
+     <a href="./images/email.png">
+        <img src="./images/email.png"> 
+      </a> 
+    </td> 
   </tr>
-  
-  <tr style="background: #010203;"> 
-    <td valign="left">
-      <p style="color: #FF7A59"> 
-      </p>  
-      <a href="./images/prev_stage2.jpg">
-        <img src="./images/prev_stage2.jpg">    
-      </a>
-    </td>
-    <td valign="left"> 
-      <p style="color: #FF7A59"> 
-      </p>
-      <a href="./images/current_stage2.png">
-        <img src="./images/current_stage2.png">          
-      </a>
-    </td>
 
-  </tr> 
-  
-  <tr style="background: #010203;"> 
-    <td valign="left">
-     <p style="color: #FF7A59"> 
-      </p>
-     <a href="./images/prev_stage3.jpg">
-        <img src="./images/prev_stage3.jpg"> 
-      </a> 
-    </td> 
-    <td valign="left">
-     <p style="color: #FF7A59"> Added Multiple Ingredient, Cusine Filter and Email Service
-      </p>
-     <a href="./images/current_stage_6.png">
-        <img src="./images/current_stage_6.png"> 
-      </a> 
-    </td> 
-  </tr> 
-  
    <tr style="background: #010203;"> 
     <td valign="left">
-     <p style="color: #FF7A59"> 
+     <p style="color: #FF7A59">  
       </p>
-     <a href="./images/prev_stage4.jpg">
-        <img src="./images/prev_stage4.jpg"> 
+      <a href="./images/current_stage4.png">
+        <img src="./images/current_stage4.png"> 
       </a> 
     </td> 
     <td valign="left">
      <p style="color: #FF7A59"> View Recipes
       </p>
-     <a href="./images/current_stage4.png">
-        <img src="./images/current_stage4.png"> 
+     <a href="./images/recipe.png">
+        <img src="./images/recipe.png"> 
       </a> 
     </td> 
   </tr>
-
+   
   <tr style="background: #010203;"> 
        <td colspan = "2">
-     <p style="color: #FF7A59"> Send Email to User (Added functionality)
+     <p style="color: #FF7A59"> Database
       </p>
-     <a href="./images/current_stage5.png">
-        <img src="./images/current_stage5.png"> 
+     <a href="./images/db.png">
+        <img src="./images/db.png"> 
       </a> 
      </td>
   </tr>  
+   
+    
  </table>
 
 ## Roadmap
@@ -198,7 +165,6 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
 - [x] Added more filters and also recommend restaurants to users based on their inputs.
 - [x] Added vegeterian/vegan filters, etc.
-- [x] Added a login/sign up service.
 - [x] Added additional dataset to recommend restaurant as per the desired cuisine.
 - [x] Added filter for rating recipe.
 - [x] Dockerized the application.
