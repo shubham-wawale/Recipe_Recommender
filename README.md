@@ -42,7 +42,6 @@ Recipe Recommender is a website that suggests users simple food recipes based on
 Source documentation can be found at: [Recipe Recommender Docs] https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Recipe%20Recommender%20Source%20Documentation.pdf
 [Restaurant Recommender Docs] https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Restaurant_Recommendation.pdf
 
-
 ## Technology Stack
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
