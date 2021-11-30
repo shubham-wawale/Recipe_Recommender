@@ -160,7 +160,8 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 - [x] Added cooking time filter.
 - [x] Improved the code test coverage by adding more specialized test cases.
 - [x] Added demo video which shows how the user will interact with our software.
-Phase-3 Improvements : https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Phase%203%20Improvements.pdf
+      Phase-3 Improvements : https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Phase%203%20Improvements.pdf
+
 ## :page_facing_up: License <a name="License"></a>
 
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/PvPatel-1001/Recipe_Recommender/blob/master/LICENSE) for more details.
