@@ -1,4 +1,4 @@
-## Demo Video:
+## STAR-GEN Demo Video (Deltas explained):
 
 https://user-images.githubusercontent.com/44945317/143974192-4947e6c7-da20-4491-aa54-06bc1ff85335.mp4
 
