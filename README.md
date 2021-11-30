@@ -160,7 +160,7 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 - [x] Added cooking time filter.
 - [x] Improved the code test coverage by adding more specialized test cases.
 - [x] Added demo video which shows how the user will interact with our software.
-      Phase-3 Improvements : https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Phase%203%20Improvements.pdf
+- [x] Added document for Phase-3 Improvements : https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Phase%203%20Improvements.pdf
 
 ## :page_facing_up: License <a name="License"></a>
 
