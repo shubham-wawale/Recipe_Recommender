@@ -1,3 +1,7 @@
+## Demo Video:
+
+https://user-images.githubusercontent.com/44945317/143974192-4947e6c7-da20-4491-aa54-06bc1ff85335.mp4
+
 ## STA(R) GEN: A STAR RECIPE GENERATOR 🍔
 
 ![RECIPE RECOMMENDER](https://user-images.githubusercontent.com/40118578/139968487-1150b64e-d8d3-4f2e-a5d3-9a48d19ff64b.gif)
