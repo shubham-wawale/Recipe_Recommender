@@ -146,23 +146,7 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
 ## Roadmap
 
-### Phase 2: Completed tasks:
-
-- [x] Improved the User Experience by embedding Dynamic scripts and CSS and made the interface self explanatory and easy from user perspective.
-- [x] Hosted database on MongoDB server for better availability.
-- [x] Improved the business logic and implemented parellelism for better efficiency.
-- [x] Made the webpage publicly available by hosting the website on AWS and reduced the down time to 0.
-- [x] Automated the continuous Deployment process using AWS providers on Terraform.
-- [x] Configured and linked the frontend and backend servers dynamically using shell scrips and Terraform output state.
-- [x] Created a more professional looking navigation buttons.
-- [x] Added more advanced features for cuisine and improved the business logic for suggesting recipes based on combination of filters.
-- [x] Implemented Email service for recommended recipes.
-- [x] Implemented Travis CI and multiple other github workflows for Continuous Integration.
-- [x] Made major improvements to the repository. Added a tagline, created a logo, etc.
-- [x] Improved the code test coverage by adding more specialized test cases.
-- [x] Added demo video which shows how the user will interact with our software.
-
-### Phase 3:
+### Phase 3: Completed Tasks:
 
 - [x] Added more filters and also recommend restaurants to users based on their inputs.
 - [x] Added vegeterian/vegan filters, etc.
