@@ -119,5 +119,57 @@ export default class RecipesDAO {
     }
   }
 
-  // code
+  // Function to add a recipe
+  static async addRecipe(recipe) {
+    console.log("Inside addRecipe");
+    console.log(recipe);
+    let inputRecipe = {};
+    inputRecipe["TranslatedRecipeName"] = recipe["recipeName"];
+    inputRecipe["TotalTimeInMins"] = recipe["cookingTime"];
+    inputRecipe["Diet-type"] = recipe["dietType"];
+    inputRecipe["Recipe-rating"] = recipe["recipeRating"];
+    inputRecipe["Cuisine"] = recipe["cuisine"];
+    inputRecipe["image-url"] = recipe["imageURL"];
+    inputRecipe["URL"] = recipe["recipeURL"];
+    inputRecipe["TranslatedInstructions"] = recipe["instructions"];
+    var ingredients = "";
+    for (var i = 0; i < recipe["ingredients"].length; i++) {
+      ingredients += recipe["ingredients"][i] + "%";
+    }
+    inputRecipe["Cleaned-Ingredients"] = ingredients;
+    var restaurants = "";
+    var locations = "";
+    for (var j = 0; j < recipe["restaurants"].length; j++) {
+      restaurants += recipe["restaurants"][j] + "%";
+      locations += recipe["locations"][j] + "%";
+    }
+    inputRecipe["Restaurant"] = restaurants;
+    inputRecipe["Restaurant-Location"] = locations;
+    console.log("Input Recipe");
+    console.log(inputRecipe);
+    let response = {};
+    // Add ingredients to the ingredient list collection if not already present
+    try{
+      // Loop over all ingredients
+      for(let i = 0; i < recipe["ingredients"].length; i++){
+        // Check if ingredient already exists in the collection
+        let ingredient = await ingredients.findOne({item_name: recipe["ingredients"][i]});
+        // If not, add it
+        if(!ingredient){
+          response = await ingredients.insertOne({item_name: recipe["ingredients"][i]});
+        }
+      }
+    } catch(e){
+      console.error(`Unable to add ingredients, ${e}`);
+      return response;
+    }
+
+    try{
+      response = await recipes.insertOne(inputRecipe);
+      return response;
+    } catch(e){
+      console.error(`Unable to add recipe, ${e}`);
+      return response;
+    }
+  }
 }
