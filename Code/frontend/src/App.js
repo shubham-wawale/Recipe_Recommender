@@ -1,9 +1,10 @@
-import "./App.css";
+// import "./App.css";
 import Form from "./components/Form.js";
 import Header from "./components/Header";
 import recipeDB from "./apis/recipeDB";
 import RecipeList from "./components/RecipeList";
 import React, { Component } from "react";
+import { Tabs, Tab, TabList,TabPanel, TabPanels, Box } from "@chakra-ui/react";
 
 // Main component of the project
 class App extends Component {
@@ -61,17 +62,26 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+         <Header />
 
-        {/* handleSubmit function is being sent as a prop to the form component*/}
-
-        <Form sendFormData={this.handleSubmit} />
-
-        {/* RecipeList is the component where results are displayed.
-        App's recipeList state item is being sent as a prop
-        */}
-
-        <RecipeList recipes={this.state.recipeList} />
+          {/* handleSubmit function is being sent as a prop to the form component*/}
+          <Tabs variant='soft-rounded' colorScheme='green'>
+            <TabList ml={50}>
+              <Tab>Search Recipe</Tab>
+              <Tab>Add Recipe</Tab>
+            </TabList>
+          <TabPanels>
+            <TabPanel>
+              <Box display="flex">
+              <Form sendFormData={this.handleSubmit} />
+              {this.state.isLoading ? <RecipeLoading/> : <RecipeList recipes={this.state.recipeList} /> }
+            </Box>
+            </TabPanel>
+            <TabPanel>
+              <AddRecipe />
+            </TabPanel>
+          </TabPanels>
+          </Tabs>
       </div>
     );
   }
