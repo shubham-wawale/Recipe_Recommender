@@ -3,6 +3,7 @@ import Form from "./components/Form.js";
 import Header from "./components/Header";
 import recipeDB from "./apis/recipeDB";
 import RecipeList from "./components/RecipeList";
+import AddRecipe from "./components/AddRecipe.js";
 import React, { Component } from "react";
 import { Tabs, Tab, TabList,TabPanel, TabPanels, Box } from "@chakra-ui/react";
 

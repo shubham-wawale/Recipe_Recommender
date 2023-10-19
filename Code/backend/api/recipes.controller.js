@@ -42,4 +42,14 @@ export default class RecipesController {
       res.status(500).json({ error: e });
     }
   }
+
+  static async apiPostRecipe(req, res, next) {
+    try{
+      let response = await RecipesDAO.addRecipe(req.body);
+      res.json(response);
+    } catch(e){
+      console.log(`api, ${e}`);
+      res.status(500).json({ error: e });
+    }
+  }
 }

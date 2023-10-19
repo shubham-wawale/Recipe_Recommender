@@ -7,4 +7,6 @@ router.route("/").get(RecipesCtrl.apiGetRecipes);
 
 router.route("/cuisines").get(RecipesCtrl.apiGetRecipeCuisines);
 
+router.route("/addRecipe").post(RecipesCtrl.apiPostRecipe);
+
 export default router;
