@@ -7,6 +7,7 @@ import AddRecipe from "./components/AddRecipe.js";
 import React, { Component } from "react";
 import { Tabs, Tab, TabList,TabPanel, TabPanels, Box } from "@chakra-ui/react";
 import RecipeLoading from "./components/RecipeLoading.js";
+import Nav from "./components/Navbar.js";
 
 // Main component of the project
 class App extends Component {
@@ -70,7 +71,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Nav />
 
         {/* handleSubmit function is being sent as a prop to the form component*/}
         <Tabs variant='soft-rounded' colorScheme='green'>
