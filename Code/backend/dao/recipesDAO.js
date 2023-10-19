@@ -2,9 +2,11 @@ import mongodb from "mongodb";
 import nodemailer from "nodemailer";
 import password from "./mail_param.js";
 const pass = password.password;
+const GMAIL = process.env.GMAIL;
 
 const ObjectId = mongodb.ObjectId;
 let recipes;
+let ingredients;
 //Function to connect to DB
 export default class RecipesDAO {
   static async injectDB(conn) {
@@ -13,6 +15,7 @@ export default class RecipesDAO {
     }
     try {
       recipes = await conn.db(process.env.RECIPES_NS).collection("recipe");
+      ingredients = await conn.db(process.env.RECIPES_NS).collection("ingredient_list");
     } catch (e) {
       console.error(
         `Unable to establish a collection handle in recipesDAO: ${e}`
@@ -77,13 +80,13 @@ export default class RecipesDAO {
           port: 465,
           secure: true,
           auth: {
-            user: "group12recipe@gmail.com",
+            user: GMAIL,
             pass: pass,
           },
         });
 
         var mailOptions = {
-          from: "group12recipe@gmail.com",
+          from: GMAIL,
           to: email,
           subject: "Recommended Recipes! Enjoy your meal!!",
           text: str_mail,
@@ -148,22 +151,6 @@ export default class RecipesDAO {
     console.log("Input Recipe");
     console.log(inputRecipe);
     let response = {};
-    // Add ingredients to the ingredient list collection if not already present
-    try{
-      // Loop over all ingredients
-      for(let i = 0; i < recipe["ingredients"].length; i++){
-        // Check if ingredient already exists in the collection
-        let ingredient = await ingredients.findOne({item_name: recipe["ingredients"][i]});
-        // If not, add it
-        if(!ingredient){
-          response = await ingredients.insertOne({item_name: recipe["ingredients"][i]});
-        }
-      }
-    } catch(e){
-      console.error(`Unable to add ingredients, ${e}`);
-      return response;
-    }
-
     try{
       response = await recipes.insertOne(inputRecipe);
       return response;
@@ -172,4 +159,15 @@ export default class RecipesDAO {
       return response;
     }
   }
+
+  static async getIngredients(){
+    let response = {};
+    try{
+      response = await ingredients.distinct('item_name');
+      return response;
+    }catch(e){
+      console.error(`Unable to get ingredients, ${e}`);
+      return response;
+    }
+  } 
 }
