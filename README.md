@@ -181,7 +181,7 @@ Please see our [CONTRIBUTING.md](https://github.com/shubham-wawale/Recipe_Recomm
     <td align="center"><a href="https://github.com/aj0671"><img src="https://avatars.githubusercontent.com/u/84402767?v=4" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a></td>
     <td align="center"><a href="https://github.com/shubham-wawale/"><img src="https://avatars.githubusercontent.com/u/63787850?s=400&u=c11a5c9bae68a18540bcb487a3769bd2c4b2ba29&v=4" width="75px;" alt=""/><br /><sub><b>Shubham Wawale</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/sal0ni"><img src="https://avatars.githubusercontent.com/u/37000199?v=4" width="75px;" alt=""/><br /><sub><b>Sahil Purohit</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/kalgeekotak99"><img src="https://avatars.githubusercontent.com/u/65714335?s=400&u=0d82e46d948b5912c53e48f559df41f0194b6741&v=4" width="75px;" alt=""/><br /><sub><b>Shinit Shetty</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Sahil-18"><img src="https://avatars.githubusercontent.com/u/64455311?v=4" width="75px;" alt=""/><br /><sub><b>Shinit Shetty</b></sub></a><br /></td>
   </tr>
 </table>
 
