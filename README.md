@@ -154,19 +154,11 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
   <tr style="background: #010203;"> 
     <td valign="left">
-     <p style="color: #FF7A59">  
+     <p style="color: #FF7A59">  Add Recipe Page
       </p>
-      <a href="./images/current_stage4.png">
-        <img src="./images/current_stage4.png"> 
+      <a href="./images/current_stage5.png">
+        <img src="./images/current_stage5.png"> 
       </a> 
-    </td> 
-    <td valign="left">
-     <p style="color: #FF7A59"> View Recipes
-      </p>
-     <a href="./images/previous_stage4.png">
-        <img src="./images/previous_stage4.png"> 
-      </a> 
-    </td> 
   </tr>
    
     
@@ -202,7 +194,7 @@ Please see our [CONTRIBUTING.md](https://github.com/shubham-wawale/Recipe_Recomm
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/aj0671"><img src="https://avatars.githubusercontent.com/u/84402767?v=4" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a></td>
+    <td align="center"><a href="https://github.com/aj0671"><img src="https://avatars.githubusercontent.com/u/84402767?v=4" width="75px;" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a></td>
     <td align="center"><a href="https://github.com/shubham-wawale/"><img src="https://avatars.githubusercontent.com/u/63787850?s=400&u=c11a5c9bae68a18540bcb487a3769bd2c4b2ba29&v=4" width="75px;" alt=""/><br /><sub><b>Shubham Wawale</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/sal0ni"><img src="https://avatars.githubusercontent.com/u/37000199?v=4" width="75px;" alt=""/><br /><sub><b>Sahil Purohit</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/Sahil-18"><img src="https://avatars.githubusercontent.com/u/64455311?v=4" width="75px;" alt=""/><br /><sub><b>Shinit Shetty</b></sub></a><br /></td>
