@@ -1,37 +1,37 @@
-## STAR-GEN Demo Video (Deltas explained):
+## SaveursSélection Demo Video (Deltas explained):
 
 https://user-images.githubusercontent.com/44945317/143974192-4947e6c7-da20-4491-aa54-06bc1ff85335.mp4
 
-## STA(R) GEN: A STAR RECIPE GENERATOR 🍔
+## SaveursSélection: Find, Cook, Taste, Share 🍔
 
 ![RECIPE RECOMMENDER](https://user-images.githubusercontent.com/40118578/139968487-1150b64e-d8d3-4f2e-a5d3-9a48d19ff64b.gif)
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
-[![DOI](https://zenodo.org/badge/428049916.svg)](https://zenodo.org/badge/latestdoi/428049916)
-[![GitHub issues open](https://img.shields.io/github/issues/het-patel99/Recipe_Recommender)](https://github.com/het-patel99/Recipe_Recommender/issues)
-[![GitHub stars](https://badgen.net/github/stars/het-patel99/Recipe_Recommender)](https://badgen.net/github/stars/het-patel99/Recipe_Recommender)
-![Github closes issues](https://img.shields.io/github/issues-closed-raw/het-patel99/Recipe_Recommender)
-[![Build Status](https://app.travis-ci.com/het-patel99/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/het-patel99/Recipe_Recommender)
+[![DOI](https://zenodo.org/badge/706798373.svg)](https://zenodo.org/doi/10.5281/zenodo.10023534)
+[![GitHub issues open](https://img.shields.io/github/issues/shubham-wawale/Recipe_Recommender)](https://github.com/shubham-wawale/Recipe_Recommender/issues)
+[![GitHub stars](https://badgen.net/github/stars/shubham-wawale/Recipe_Recommender)](https://badgen.net/github/stars/shubham-wawale/Recipe_Recommender)
+![Github closes issues](https://img.shields.io/github/issues-closed-raw/shubham-wawale/Recipe_Recommender)
+[![Build Status](https://app.travis-ci.com/shubham-wawale/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/shubham-wawale/Recipe_Recommender)
 [![codecov](https://codecov.io/gh/het-patel99/Recipe_Recommender/branch/master/graph/badge.svg?token=q0ToHQ6mOV)](https://codecov.io/gh/het-patel99/Recipe_Recommender)
-[![Respost - Write comment to new Issue event](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Respost.yml)
-[![Check the source code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml)
-![GitHub contributors](https://img.shields.io/github/contributors/het-patel99/Recipe_Recommender)
-[![Code Formatter and Syntax Check](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
-[![Running Code Coverage](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/coverage.yml)
-[![Style Checker and Prettify Code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml)
-[![Greetings](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/greetings.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/greetings.yml)
-![Lines of code](https://img.shields.io/tokei/lines/github/het-patel99/Recipe_Recommender)
-[![Mark stale issues and pull requests](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/het-patel99/Recipe_Recommender)
+[![Respost - Write comment to new Issue event](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Respost.yml)
+[![Check the source code](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/codeFormatter.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml)
+![GitHub contributors](https://img.shields.io/github/contributors/shubham-wawale/Recipe_Recommender)
+[![Code Formatter and Syntax Check](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
+[![Running Code Coverage](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/coverage.yml)
+[![Style Checker and Prettify Code](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml)
+[![Greetings](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/greetings.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/greetings.yml)
+![Lines of code](https://img.shields.io/tokei/lines/github/shubham-wawale/Recipe_Recommender)
+[![Mark stale issues and pull requests](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/stale.yml)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/shubham-wawale/Recipe_Recommender)
 
 https://user-images.githubusercontent.com/43135408/143961045-e86b0aef-c4ca-41bd-b242-00cd7973038e.mp4
 
-   <h3>🍔 Our motto: Eat good, Be Healthy, Stay Happy 🍔</h3>
+   <h3>🍔 Our motto: Find, Cook, Taste, Share 🍔</h3>
 
   <p>
-    Recipe Recommender is an application that suggests you recipes based on the ingredients which are currently available.
-    One of the most tedious tasks while cooking is figuring out what to cook with the ingredients that you, have rather than how to cook it.
-    Our software aims to ease this dilemma by providing recipes for food items which you can make with the ingredients at your home.
+    Introducing "SaveursSélection", your ultimate culinary companion! Say goodbye to the hassle of pondering what to prepare with the ingredients on hand. We've revolutionized the way you approach cooking by crafting an application that effortlessly suggests delectable recipes based on the ingredients you have readily available in your kitchen.
+
+Unleash the potential of your pantry and refrigerator by allowing our innovative software to guide you in selecting the perfect dishes that match your current ingredient inventory. Cooking is no longer a daunting task; it's a delightful adventure waiting to happen. Dive into the world of endless culinary possibilities with our Recipe Recommender
   </p>
 
 ## Documentation
@@ -43,8 +43,8 @@ Recipe Recommender is a website that suggests users simple food recipes based on
 - [ ] For each recipe, we show the key ingredients, instructions and a sample image.
 - [ ] Upon user request we also send the list of recipes to the user.
 
-Source documentation can be found at: [Recipe Recommender Docs] https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Recipe%20Recommender%20Source%20Documentation.pdf
-[Restaurant Recommender Docs] https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Restaurant_Recommendation.pdf
+Source documentation can be found at: [Recipe Recommender Docs] https://github.com/shubham-wawale/Recipe_Recommender/blob/master/docs/Recipe%20Recommender%20Source%20Documentation.pdf
+[Restaurant Recommender Docs] https://github.com/shubham-wawale/Recipe_Recommender/blob/master/docs/Restaurant_Recommendation.pdf
 
 ## Technology Stack
 
@@ -59,14 +59,14 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
 ## Key Software Requirements
 
-- [Node.js v14.7.6](https://nodejs.org/en/download/)
-- [NPM v6.14.15](https://nodejs.org/en/download/)
+- [Node.js v18.17.1](https://nodejs.org/en/download/)
+- [NPM v10.1.0](https://nodejs.org/en/download/)
 
 ## Project Setup Steps:
 
 ### Installation:
 
-- clone repository using `git clone https://github.com/het-patel99/Recipe_Recommender.git`
+- clone repository using `git clone https://github.com/shubham-wawale/Recipe_Recommender.git`
 - setup for frontend
   open terminal and navigate to the **frontend** folder and execute the following:
   ```
@@ -172,17 +172,16 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 
 ## :pencil2: Contributions <a name="Contributions"></a>
 
-Please see our [CONTRIBUTING.md](https://github.com/PvPatel-1001/Recipe_Recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
+Please see our [CONTRIBUTING.md](https://github.com/shubham-wawale/Recipe_Recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
 ## Contributors Phase - 3
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/het-patel99"><img src="https://avatars.githubusercontent.com/u/44945317?s=400&u=c05d1c4c8cf27c526d9d8c72b0725255500591cd&v=4" width="75px;" alt=""/><br /><sub><b>Het Patel</b></sub></a></td>
-    <td align="center"><a href="https://github.com/hvudeshi"><img src="https://avatars.githubusercontent.com/u/22682878?v=4" width="75px;" alt=""/><br /><sub><b>Hardik Udeshi</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/sal0ni"><img src="https://avatars.githubusercontent.com/u/37000199?v=4" width="75px;" alt=""/><br /><sub><b>Saloni Mahatma</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/kalgeekotak99"><img src="https://avatars.githubusercontent.com/u/43135408?v=4" width="75px;" alt=""/><br /><sub><b>Kalgee Kotak</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Vineet2311"><img src="https://avatars.githubusercontent.com/u/89501442?v=4" width="75px;" alt=""/><br /><sub><b>Vineet Chheda</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/aj0671"><img src="https://avatars.githubusercontent.com/u/84402767?v=4" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a></td>
+    <td align="center"><a href="https://github.com/shubham-wawale/"><img src="https://avatars.githubusercontent.com/u/63787850?s=400&u=c11a5c9bae68a18540bcb487a3769bd2c4b2ba29&v=4" width="75px;" alt=""/><br /><sub><b>Shubham Wawale</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/sal0ni"><img src="https://avatars.githubusercontent.com/u/37000199?v=4" width="75px;" alt=""/><br /><sub><b>Sahil Purohit</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/kalgeekotak99"><img src="https://avatars.githubusercontent.com/u/65714335?s=400&u=0d82e46d948b5912c53e48f559df41f0194b6741&v=4" width="75px;" alt=""/><br /><sub><b>Shinit Shetty</b></sub></a><br /></td>
   </tr>
 </table>
 
