@@ -8,16 +8,17 @@ const RecipeCard = (props) => {
     }
     return (
         <>
-            <Card _hover={{transform: "scale(1.05)", bg: "green.300", transitionDuration: "4" ,cursor: "pointer"}} onClick={handleClick}>
+            <Card data-testid="recipeCard" _hover={{transform: "scale(1.05)", bg: "green.300", transitionDuration: "4" ,cursor: "pointer"}} onClick={handleClick}>
                 <CardHeader>
-                    <Heading size='md'>{props.recipe.TranslatedRecipeName}</Heading>
+                    <Heading data-testid="recipeName" size='md'>{props.recipe.TranslatedRecipeName}</Heading>
                 </CardHeader>
                 <CardBody>
-                    <Text>Cooking Time: {props.recipe.TotalTimeInMins} mins</Text>
-                    <Text>Rating: {props.recipe['Recipe-rating']}</Text>
-                    <Text>Diet Type: {props.recipe['Diet-type']}</Text>
+                    <Text data-testid="time">Cooking Time: {props.recipe.TotalTimeInMins} mins</Text>
+                    <Text data-testid="rating">Rating: {props.recipe['Recipe-rating']}</Text>
+                    <Text data-testid="diet">Diet Type: {props.recipe['Diet-type']}</Text>
                 </CardBody>
                 <Image
+                    data-testid="recipeImg"
                     objectFit='cover'
                     src={props.recipe["image-url"]}
                     width={"90%"}
