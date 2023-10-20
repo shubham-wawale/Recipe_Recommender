@@ -2,31 +2,31 @@
 
 https://user-images.githubusercontent.com/44945317/143974192-4947e6c7-da20-4491-aa54-06bc1ff85335.mp4
 
-## STA(R) GEN: A STAR RECIPE GENERATOR 🍔
+## SaveursSélection: Find, Cook, Taste, Share 🍔
 
 ![RECIPE RECOMMENDER](https://user-images.githubusercontent.com/40118578/139968487-1150b64e-d8d3-4f2e-a5d3-9a48d19ff64b.gif)
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
-[![DOI](https://zenodo.org/badge/428049916.svg)](https://zenodo.org/badge/latestdoi/428049916)
-[![GitHub issues open](https://img.shields.io/github/issues/het-patel99/Recipe_Recommender)](https://github.com/het-patel99/Recipe_Recommender/issues)
-[![GitHub stars](https://badgen.net/github/stars/het-patel99/Recipe_Recommender)](https://badgen.net/github/stars/het-patel99/Recipe_Recommender)
-![Github closes issues](https://img.shields.io/github/issues-closed-raw/het-patel99/Recipe_Recommender)
-[![Build Status](https://app.travis-ci.com/het-patel99/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/het-patel99/Recipe_Recommender)
+[![DOI](https://zenodo.org/badge/706798373.svg)](https://zenodo.org/doi/10.5281/zenodo.10023534)
+[![GitHub issues open](https://img.shields.io/github/issues/shubham-wawale/Recipe_Recommender)](https://github.com/shubham-wawale/Recipe_Recommender/issues)
+[![GitHub stars](https://badgen.net/github/stars/shubham-wawale/Recipe_Recommender)](https://badgen.net/github/stars/shubham-wawale/Recipe_Recommender)
+![Github closes issues](https://img.shields.io/github/issues-closed-raw/shubham-wawale/Recipe_Recommender)
+[![Build Status](https://app.travis-ci.com/shubham-wawale/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/shubham-wawale/Recipe_Recommender)
 [![codecov](https://codecov.io/gh/het-patel99/Recipe_Recommender/branch/master/graph/badge.svg?token=q0ToHQ6mOV)](https://codecov.io/gh/het-patel99/Recipe_Recommender)
-[![Respost - Write comment to new Issue event](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Respost.yml)
-[![Check the source code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml)
-![GitHub contributors](https://img.shields.io/github/contributors/het-patel99/Recipe_Recommender)
-[![Code Formatter and Syntax Check](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
-[![Running Code Coverage](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/coverage.yml)
-[![Style Checker and Prettify Code](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml)
-[![Greetings](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/greetings.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/greetings.yml)
-![Lines of code](https://img.shields.io/tokei/lines/github/het-patel99/Recipe_Recommender)
-[![Mark stale issues and pull requests](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/stale.yml)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/het-patel99/Recipe_Recommender)
+[![Respost - Write comment to new Issue event](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Respost.yml)
+[![Check the source code](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/codeFormatter.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml)
+![GitHub contributors](https://img.shields.io/github/contributors/shubham-wawale/Recipe_Recommender)
+[![Code Formatter and Syntax Check](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Code_Formatter_and_Syntax_Check.yml)
+[![Running Code Coverage](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/coverage.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/coverage.yml)
+[![Style Checker and Prettify Code](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Style_Checker_and_Prettify_Code.yml)
+[![Greetings](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/greetings.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/greetings.yml)
+![Lines of code](https://img.shields.io/tokei/lines/github/shubham-wawale/Recipe_Recommender)
+[![Mark stale issues and pull requests](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/stale.yml)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/shubham-wawale/Recipe_Recommender)
 
 https://user-images.githubusercontent.com/43135408/143961045-e86b0aef-c4ca-41bd-b242-00cd7973038e.mp4
 
-   <h3>🍔 Our motto: Eat good, Be Healthy, Stay Happy 🍔</h3>
+   <h3>🍔 Our motto: Find, Cook, Taste, Share 🍔</h3>
 
   <p>
     Recipe Recommender is an application that suggests you recipes based on the ingredients which are currently available.
