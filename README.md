@@ -169,16 +169,6 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
     </td> 
   </tr>
    
-  <tr style="background: #010203;"> 
-       <td colspan = "2">
-     <p style="color: #FF7A59">
-      </p>
-     <a href="./images/current_stage5.png">
-        <img src="./images/current_stage5.png"> 
-      </a> 
-     </td>
-  </tr>  
-   
     
  </table>
 
