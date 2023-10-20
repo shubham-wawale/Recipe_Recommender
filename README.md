@@ -1,10 +1,6 @@
 ## SaveursSélection Demo Video (Deltas explained):
 
-
-
-https://github.com/shubham-wawale/Recipe_Recommender/assets/65714335/6cee65a0-475e-48c6-b37e-f0957d211226
-
-
+https://github.com/shubham-wawale/Recipe_Recommender/assets/65714335/c7905000-30dc-48b9-af4e-5b5a48f3fc93
 
 ## SaveursSélection: Find, Cook, Taste, Share 🍔
 
@@ -28,6 +24,8 @@ https://github.com/shubham-wawale/Recipe_Recommender/assets/65714335/6cee65a0-47
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/shubham-wawale/Recipe_Recommender)
 
 ![video1](https://github.com/shubham-wawale/Recipe_Recommender/assets/65714335/16caee96-f400-429d-b043-36456653748b)
+
+![video 3](https://github.com/shubham-wawale/Recipe_Recommender/assets/65714335/5f771834-fa38-4bef-928d-047777a429d2)
 
 
    <h3>🍔 Our motto: Find, Cook, Taste, Share 🍔</h3>
