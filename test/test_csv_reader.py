@@ -18,3 +18,9 @@ def test_diet_type_data_Veg():
 
 def test_diet_type_data_Vegan():
 		assert "Vegan" in diet_type_data("oats")
+
+test_restaurant_data()
+test_location_data()
+test_diet_type_data_Non_Veg()
+test_diet_type_data_Veg()
+test_diet_type_data_Vegan()
