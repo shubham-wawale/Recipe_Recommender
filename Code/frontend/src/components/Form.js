@@ -210,7 +210,7 @@ class Form extends Component {
                             <option value='option2'>Option 2</option>
                             <option value='option3'>Option 3</option>
                         </Select> */}
-              <Input type="text" id="email_id" color={"gray.500"} size={"lg"} placeholder='Email' />
+              <Input data-testid="email_id" type="text" id="email_id" color={"gray.500"} size={"lg"} placeholder='Email' />
               </InputGroup>
               <InputGroup variant={"filled"}>
                 <FormLabel htmlFor='email-alerts' mb='0'>
@@ -219,7 +219,7 @@ class Form extends Component {
                 </FormLabel>
               </InputGroup>
 
-            <Button id="submit" onClick={this.handleSubmit} width={"100%"} _hover={{ bg: 'black', color: "gray.100" }} color={"gray.600"} bg={"green.300"}>Search Recipes</Button>
+            <Button data-testid="submit" id="submit" onClick={this.handleSubmit} width={"100%"} _hover={{ bg: 'black', color: "gray.100" }} color={"gray.600"} bg={"green.300"}>Search Recipes</Button>
 
           </VStack>
         </Box>

@@ -61,7 +61,7 @@ export default class TypeAheadDropDown extends React.Component {
   return (
   <div className="TypeAheadDropDown">
     {/* <input onChange={this.onTextChange} placeholder="Search city name" value={text} type="text" /> */}
-    <Input onChange={this.onTextChange} size={"lg"} type="text" variant={'filled'} id={id_inp} placeholder={placeholder_inp} value={text}/>
+    <Input data-testid={id_inp} onChange={this.onTextChange} size={"lg"} type="text" variant={'filled'} id={id_inp} placeholder={placeholder_inp} value={text}/>
     {this.renderSuggestions()}
  </div>
 );

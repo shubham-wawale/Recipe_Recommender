@@ -11,6 +11,7 @@ const RecipeList = ({ recipes }) => {
 
   //   )
   // });
+  console.log(recipes)
   const [isOpen, setIsOpen] = useState(false);
   const [currentRecipe, setCurrentRecipe] = useState({});
   var youtube_videos =
@@ -31,12 +32,12 @@ const RecipeList = ({ recipes }) => {
         <SimpleGrid spacing={5} templateColumns='repeat(auto-fill, minmax(250px, 1fr))'>
           {recipes.length !==0 ? recipes.map((recipe) => (
             <RecipeCard handler={handleViewRecipe} recipe={recipe} />
-          )) : <Text fontSize={"lg"} color={"gray"}>Searching for a recipe?</Text>}
+          )) : <Text data-testid="noResponseText" fontSize={"lg"} color={"gray"}>Searching for a recipe?</Text>}
         </SimpleGrid>
       </Box>
       <Modal size={"6xl"} isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-        <ModalContent >
+        <ModalContent data-testid="recipeModal" >
           <ModalHeader>{currentRecipe.TranslatedRecipeName}</ModalHeader>
           <ModalCloseButton />
           <ModalBody>
