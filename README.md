@@ -106,14 +106,14 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
      <p style="color: #FF7A59"> Current Home Page
       </p>
       <a href="./images/current_stage1.png">
-        <img src="./images/current_stage1.png" width="200px;"> 
+        <img src="./images/current_stage1.png" width="500px;"> 
       </a> 
     </td> 
     <td valign="left">
      <p style="color: #FF7A59"> Previous Home Page
       </p>
      <a href="./images/previous_stage1.png">
-        <img src="./images/previous_stage1.png" width="200px;"> 
+        <img src="./images/previous_stage1.png" width="500px;"> 
       </a> 
     </td> 
   </tr>
@@ -123,14 +123,14 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
      <p style="color: #FF7A59">  
       </p>
       <a href="./images/current_stage2.png">
-        <img src="./images/current_stage2.png" width="200px;"> 
+        <img src="./images/current_stage2.png" width="500px;"> 
       </a> 
     </td> 
     <td valign="left">
      <p style="color: #FF7A59"> View Recipes
       </p>
      <a href="./images/previous_stage2.png">
-        <img src="./images/previous_stage2.png" width="200px;"> 
+        <img src="./images/previous_stage2.png" width="500px;"> 
       </a> 
     </td> 
   </tr>
@@ -140,14 +140,14 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
      <p style="color: #FF7A59">  
       </p>
       <a href="./images/current_stage3.png">
-        <img src="./images/current_stage3.png" width="200px;"> 
+        <img src="./images/current_stage3.png" width="500px;"> 
       </a> 
     </td> 
     <td valign="left">
-     <p style="color: #FF7A59"> View Recipes
+     <p style="color: #FF7A59">
       </p>
      <a href="./images/previous_stage3.png">
-        <img src="./images/previous_stage3.png" width="200px;"> 
+        <img src="./images/previous_stage3.png" width="500px;"> 
       </a> 
     </td> 
   </tr>
@@ -159,7 +159,7 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
      <p style="color: #FF7A59">  Add Recipe Page
       </p>
       <a href="./images/current_stage5.png">
-        <img src="./images/current_stage5.png" width="200px;"> 
+        <img src="./images/current_stage5.png" width="500px;"> 
       </a> 
   </tr>
  </table>
