@@ -105,20 +105,54 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
     <td valign="left">
      <p style="color: #FF7A59"> Previous Work
       </p>
-      <a href="./images/current_stage5.png">
-        <img src="./images/current_stage5.png"> 
+      <a href="./images/current_stage1.png">
+        <img src="./images/current_stage1.png"> 
       </a> 
     </td> 
     <td valign="left">
      <p style="color: #FF7A59"> Current Work (Updated email format)
       </p>
-     <a href="./images/email.png">
-        <img src="./images/email.png"> 
+     <a href="./images/previous_stage1.png">
+        <img src="./images/previous_stage1.png"> 
       </a> 
     </td> 
   </tr>
 
    <tr style="background: #010203;"> 
+    <td valign="left">
+     <p style="color: #FF7A59">  
+      </p>
+      <a href="./images/current_stage2.png">
+        <img src="./images/current_stage2.png"> 
+      </a> 
+    </td> 
+    <td valign="left">
+     <p style="color: #FF7A59"> View Recipes
+      </p>
+     <a href="./images/previous_stage2.png">
+        <img src="./images/previous_stage2.png"> 
+      </a> 
+    </td> 
+  </tr>
+
+  <tr style="background: #010203;"> 
+    <td valign="left">
+     <p style="color: #FF7A59">  
+      </p>
+      <a href="./images/current_stage3.png">
+        <img src="./images/current_stage3.png"> 
+      </a> 
+    </td> 
+    <td valign="left">
+     <p style="color: #FF7A59"> View Recipes
+      </p>
+     <a href="./images/previous_stage3.png">
+        <img src="./images/previous_stage3.png"> 
+      </a> 
+    </td> 
+  </tr>
+
+  <tr style="background: #010203;"> 
     <td valign="left">
      <p style="color: #FF7A59">  
       </p>
@@ -129,8 +163,8 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
     <td valign="left">
      <p style="color: #FF7A59"> View Recipes
       </p>
-     <a href="./images/recipe.png">
-        <img src="./images/recipe.png"> 
+     <a href="./images/previous_stage4.png">
+        <img src="./images/previous_stage4.png"> 
       </a> 
     </td> 
   </tr>
@@ -139,8 +173,8 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
        <td colspan = "2">
      <p style="color: #FF7A59"> Database
       </p>
-     <a href="./images/db.png">
-        <img src="./images/db.png"> 
+     <a href="./images/current_stage5.png">
+        <img src="./images/current_stage5.png"> 
       </a> 
      </td>
   </tr>  
