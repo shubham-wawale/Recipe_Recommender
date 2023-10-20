@@ -1,6 +1,10 @@
 ## SaveursSélection Demo Video (Deltas explained):
 
-https://user-images.githubusercontent.com/44945317/143974192-4947e6c7-da20-4491-aa54-06bc1ff85335.mp4
+
+
+https://github.com/shubham-wawale/Recipe_Recommender/assets/65714335/6cee65a0-475e-48c6-b37e-f0957d211226
+
+
 
 ## SaveursSélection: Find, Cook, Taste, Share 🍔
 
