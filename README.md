@@ -103,14 +103,14 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
   <tr style="background: #010203;"> 
     <td valign="left">
-     <p style="color: #FF7A59"> Previous Work
+     <p style="color: #FF7A59"> Current Home Page
       </p>
       <a href="./images/current_stage1.png">
         <img src="./images/current_stage1.png"> 
       </a> 
     </td> 
     <td valign="left">
-     <p style="color: #FF7A59"> Current Work (Updated email format)
+     <p style="color: #FF7A59"> Previous Home Page
       </p>
      <a href="./images/previous_stage1.png">
         <img src="./images/previous_stage1.png"> 
@@ -161,7 +161,7 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
       </a> 
     </td> 
     <td valign="left">
-     <p style="color: #FF7A59"> View Recipes
+     <p style="color: #FF7A59">
       </p>
      <a href="./images/previous_stage4.png">
         <img src="./images/previous_stage4.png"> 
@@ -171,7 +171,7 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
    
   <tr style="background: #010203;"> 
        <td colspan = "2">
-     <p style="color: #FF7A59"> Database
+     <p style="color: #FF7A59">
       </p>
      <a href="./images/current_stage5.png">
         <img src="./images/current_stage5.png"> 
