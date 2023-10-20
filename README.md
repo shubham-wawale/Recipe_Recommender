@@ -23,7 +23,8 @@ https://user-images.githubusercontent.com/44945317/143974192-4947e6c7-da20-4491-
 [![Mark stale issues and pull requests](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/stale.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/stale.yml)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/shubham-wawale/Recipe_Recommender)
 
-https://user-images.githubusercontent.com/43135408/143961045-e86b0aef-c4ca-41bd-b242-00cd7973038e.mp4
+![video1](https://github.com/shubham-wawale/Recipe_Recommender/assets/65714335/16caee96-f400-429d-b043-36456653748b)
+
 
    <h3>🍔 Our motto: Find, Cook, Taste, Share 🍔</h3>
 
