@@ -18,4 +18,4 @@ authors:
   version: 1.0.0
   doi: 10.5281/zenodo.5534986
   date-released: 2023-10-19
-  url: "https://doi.org/10.5281/zenodo.5534986"
+  url: "https://zenodo.org/doi/10.5281/zenodo.10023534"
