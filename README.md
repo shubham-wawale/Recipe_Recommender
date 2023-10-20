@@ -29,9 +29,9 @@ https://user-images.githubusercontent.com/43135408/143961045-e86b0aef-c4ca-41bd-
    <h3>🍔 Our motto: Find, Cook, Taste, Share 🍔</h3>
 
   <p>
-    Recipe Recommender is an application that suggests you recipes based on the ingredients which are currently available.
-    One of the most tedious tasks while cooking is figuring out what to cook with the ingredients that you, have rather than how to cook it.
-    Our software aims to ease this dilemma by providing recipes for food items which you can make with the ingredients at your home.
+    Introducing "SaveursSélection", your ultimate culinary companion! Say goodbye to the hassle of pondering what to prepare with the ingredients on hand. We've revolutionized the way you approach cooking by crafting an application that effortlessly suggests delectable recipes based on the ingredients you have readily available in your kitchen.
+
+Unleash the potential of your pantry and refrigerator by allowing our innovative software to guide you in selecting the perfect dishes that match your current ingredient inventory. Cooking is no longer a daunting task; it's a delightful adventure waiting to happen. Dive into the world of endless culinary possibilities with our Recipe Recommender
   </p>
 
 ## Documentation
@@ -172,13 +172,13 @@ This project is licensed under the terms of the MIT license. Please check [Licen
 
 ## :pencil2: Contributions <a name="Contributions"></a>
 
-Please see our [CONTRIBUTING.md](https://github.com/PvPatel-1001/Recipe_Recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
+Please see our [CONTRIBUTING.md](https://github.com/shubham-wawale/Recipe_Recommender/blob/master/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
 ## Contributors Phase - 3
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/aj0671"><img src="https://avatars.githubusercontent.com/u/44945317?s=400&u=c05d1c4c8cf27c526d9d8c72b0725255500591cd&v=4" width="75px;" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a></td>
+    <td align="center"><a href="https://github.com/aj0671"><img src="https://avatars.githubusercontent.com/u/84402767?v=4" alt=""/><br /><sub><b>Atharva Joshi</b></sub></a></td>
     <td align="center"><a href="https://github.com/shubham-wawale/"><img src="https://avatars.githubusercontent.com/u/63787850?s=400&u=c11a5c9bae68a18540bcb487a3769bd2c4b2ba29&v=4" width="75px;" alt=""/><br /><sub><b>Shubham Wawale</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/sal0ni"><img src="https://avatars.githubusercontent.com/u/37000199?v=4" width="75px;" alt=""/><br /><sub><b>Sahil Purohit</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/kalgeekotak99"><img src="https://avatars.githubusercontent.com/u/65714335?s=400&u=0d82e46d948b5912c53e48f559df41f0194b6741&v=4" width="75px;" alt=""/><br /><sub><b>Shinit Shetty</b></sub></a><br /></td>
