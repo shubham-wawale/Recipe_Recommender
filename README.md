@@ -151,23 +151,6 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
       </a> 
     </td> 
   </tr>
-
-  <tr style="background: #010203;"> 
-    <td valign="left">
-     <p style="color: #FF7A59">  
-      </p>
-      <a href="./images/current_stage4.png">
-        <img src="./images/current_stage4.png"> 
-      </a> 
-    </td> 
-    <td valign="left">
-     <p style="color: #FF7A59">
-      </p>
-     <a href="./images/previous_stage4.png">
-        <img src="./images/previous_stage4.png"> 
-      </a> 
-    </td> 
-  </tr>
    
     
  </table>
