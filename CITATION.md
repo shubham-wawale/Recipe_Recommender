@@ -16,6 +16,6 @@ authors:
   orcid: "https://orcid.org/0000-0000-0000-0000"
   title: "Saveurs Sélection"
   version: 1.0.0
-  doi: 10.5281/zenodo.5534986
+  doi: 10.5281/zenodo.10023535
   date-released: 2023-10-19
   url: "https://zenodo.org/doi/10.5281/zenodo.10023534"
