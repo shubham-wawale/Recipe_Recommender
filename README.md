@@ -4,7 +4,6 @@ https://user-images.githubusercontent.com/44945317/143974192-4947e6c7-da20-4491-
 
 ## SaveursSélection: Find, Cook, Taste, Share 🍔
 
-![RECIPE RECOMMENDER](https://user-images.githubusercontent.com/40118578/139968487-1150b64e-d8d3-4f2e-a5d3-9a48d19ff64b.gif)
 
 [![Made With](https://img.shields.io/badge/made%20with-javascript-gree)](https://www.javascript.com/)
 [![DOI](https://zenodo.org/badge/706798373.svg)](https://zenodo.org/doi/10.5281/zenodo.10023534)
