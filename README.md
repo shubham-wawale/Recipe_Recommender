@@ -127,7 +127,7 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
       </a> 
     </td> 
     <td valign="left">
-     <p style="color: #FF7A59"> View Recipes
+     <p style="color: #FF7A59">
       </p>
      <a href="./images/previous_stage2.png">
         <img src="./images/previous_stage2.png" width="500px;"> 
@@ -148,6 +148,23 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
       </p>
      <a href="./images/previous_stage3.png">
         <img src="./images/previous_stage3.png" width="500px;"> 
+      </a> 
+    </td> 
+  </tr>
+
+  <tr style="background: #010203;"> 
+    <td valign="left">
+     <p style="color: #FF7A59">  
+      </p>
+      <a href="./images/current_stage4.png">
+        <img src="./images/current_stage4.png" width="500px;"> 
+      </a> 
+    </td> 
+    <td valign="left">
+     <p style="color: #FF7A59">
+      </p>
+     <a href="./images/previous_stage4.png">
+        <img src="./images/previous_stage4.png" width="500px;"> 
       </a> 
     </td> 
   </tr>
