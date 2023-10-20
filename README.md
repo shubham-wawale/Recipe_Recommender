@@ -11,7 +11,7 @@ https://github.com/shubham-wawale/Recipe_Recommender/assets/65714335/c7905000-30
 [![GitHub stars](https://badgen.net/github/stars/shubham-wawale/Recipe_Recommender)](https://badgen.net/github/stars/shubham-wawale/Recipe_Recommender)
 ![Github closes issues](https://img.shields.io/github/issues-closed-raw/shubham-wawale/Recipe_Recommender)
 [![Build Status](https://app.travis-ci.com/shubham-wawale/Recipe_Recommender.svg?branch=master)](https://app.travis-ci.com/shubham-wawale/Recipe_Recommender)
-[![codecov](https://codecov.io/gh/het-patel99/Recipe_Recommender/branch/master/graph/badge.svg?token=q0ToHQ6mOV)](https://codecov.io/gh/het-patel99/Recipe_Recommender)
+[![codecov](https://codecov.io/gh/shubham-wawale/Recipe_Recommender/graph/badge.svg?token=A96CESCGLM)](https://codecov.io/gh/shubham-wawale/Recipe_Recommender)
 [![Respost - Write comment to new Issue event](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Respost.yml/badge.svg)](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/Respost.yml)
 [![Check the source code](https://github.com/shubham-wawale/Recipe_Recommender/actions/workflows/codeFormatter.yml/badge.svg)](https://github.com/het-patel99/Recipe_Recommender/actions/workflows/codeFormatter.yml)
 ![GitHub contributors](https://img.shields.io/github/contributors/shubham-wawale/Recipe_Recommender)
