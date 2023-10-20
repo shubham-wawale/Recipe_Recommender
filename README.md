@@ -1,4 +1,4 @@
-## STAR-GEN Demo Video (Deltas explained):
+## SaveursSélection Demo Video (Deltas explained):
 
 https://user-images.githubusercontent.com/44945317/143974192-4947e6c7-da20-4491-aa54-06bc1ff85335.mp4
 
@@ -43,8 +43,8 @@ Recipe Recommender is a website that suggests users simple food recipes based on
 - [ ] For each recipe, we show the key ingredients, instructions and a sample image.
 - [ ] Upon user request we also send the list of recipes to the user.
 
-Source documentation can be found at: [Recipe Recommender Docs] https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Recipe%20Recommender%20Source%20Documentation.pdf
-[Restaurant Recommender Docs] https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Restaurant_Recommendation.pdf
+Source documentation can be found at: [Recipe Recommender Docs] https://github.com/shubham-wawale/Recipe_Recommender/blob/master/docs/Recipe%20Recommender%20Source%20Documentation.pdf
+[Restaurant Recommender Docs] https://github.com/shubham-wawale/Recipe_Recommender/blob/master/docs/Restaurant_Recommendation.pdf
 
 ## Technology Stack
 
@@ -59,14 +59,14 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
 
 ## Key Software Requirements
 
-- [Node.js v14.7.6](https://nodejs.org/en/download/)
-- [NPM v6.14.15](https://nodejs.org/en/download/)
+- [Node.js v18.17.1](https://nodejs.org/en/download/)
+- [NPM v10.1.0](https://nodejs.org/en/download/)
 
 ## Project Setup Steps:
 
 ### Installation:
 
-- clone repository using `git clone https://github.com/het-patel99/Recipe_Recommender.git`
+- clone repository using `git clone https://github.com/shubham-wawale/Recipe_Recommender.git`
 - setup for frontend
   open terminal and navigate to the **frontend** folder and execute the following:
   ```
