@@ -52,4 +52,16 @@ export default class RecipesController {
       res.status(500).json({ error: e });
     }
   }
+
+  static async apiGetIngredients(req, res, next) {
+    try{
+      let ingredients = await RecipesDAO.getIngredients();
+      res.json(ingredients);
+    }catch(e){
+      console.log(`ingredients nahi milra hai , ${e}`);
+      res.status(500).json({ error: e });
+    }
+  }
 }
+
+
