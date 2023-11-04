@@ -183,23 +183,6 @@ Source documentation can be found at: [Recipe Recommender Docs] https://github.c
   </tr>
  </table>
 
-## Roadmap
-
-### Phase 3: Completed Tasks:
-
-- [x] Added more filters and also recommend restaurants to users based on their inputs.
-- [x] Added vegeterian/vegan filters, etc.
-- [x] Hosted database on MongoDB server for better availability.
-- [x] Added additional dataset to recommend restaurant as per the desired cuisine.
-- [x] Made the webpage publicly available by hosting the website on AWS and reduced the down time to 0.
-- [x] Added filter for rating recipe.
-- [x] Dockerized the application.
-- [x] Fine tuned the existing code and wrapped up to produce a finished product.
-- [x] Changed email format of the recipe suggestions.
-- [x] Added cooking time filter.
-- [x] Improved the code test coverage by adding more specialized test cases.
-- [x] Added demo video which shows how the user will interact with our software.
-- [x] Added document for Phase-3 Improvements : https://github.com/het-patel99/Recipe_Recommender/blob/master/docs/Phase%203%20Improvements.pdf
 
 ## :page_facing_up: License <a name="License"></a>
 
