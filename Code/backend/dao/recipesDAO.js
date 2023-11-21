@@ -7,6 +7,7 @@ const GMAIL = process.env.GMAIL;
 const ObjectId = mongodb.ObjectId;
 let recipes;
 let ingredients;
+let users;
 //Function to connect to DB
 export default class RecipesDAO {
   static async injectDB(conn) {
@@ -16,12 +17,52 @@ export default class RecipesDAO {
     try {
       recipes = await conn.db(process.env.RECIPES_NS).collection("recipe");
       ingredients = await conn.db(process.env.RECIPES_NS).collection("ingredient_list");
+      users = await conn.db(process.env.RECIPES_NS).collection("user");
     } catch (e) {
       console.error(
         `Unable to establish a collection handle in recipesDAO: ${e}`
       );
     }
   }
+
+  static async getUser({ filters = null } = {}) {
+    let query;
+    let cursor;
+    let user;
+    query = { "userName": filters.userName }
+    if (filters) {
+      cursor = await users.findOne(query);
+      if (cursor.userName) {
+        if (cursor.password == filters.password) {
+          return { success: true, user: cursor }
+        } else {
+          return { success: false }
+        }
+      } else {
+        return { success: false }
+      }
+    }
+  }
+
+  static async addUser({ data = null } = {}) {
+    let query;
+    let cursor;
+    let user;
+    query = { "userName": data.userName }
+    console.log(query)
+    if (data) {
+      cursor = await users.findOne(query);
+      console.log(cursor)
+      if (cursor!==null) {
+        return {success: false}
+      } else {
+        const res = await users.insertOne(data)
+        return { success: true }
+      }
+    }
+  }
+  
+
   //Function to get the Recipe List
   static async getRecipes({
     filters = null,
@@ -40,7 +81,7 @@ export default class RecipesDAO {
         console.log(str);
         query = { "Cleaned-Ingredients": { $regex: str } };
         query["Cuisine"] = filters["Cuisine"];
-
+        console.log(query);
         var email = filters["Email"];
         var flagger = filters["Flag"];
         console.log(email);
@@ -160,6 +201,22 @@ export default class RecipesDAO {
     }
   }
 
+    //function to add recipe to user profile
+    static async addRecipeToProfile(userName, recipe) {
+      let response;
+      console.log(userName)
+      try {
+        response = await users.updateOne(
+          { userName: userName },
+          { $push: { bookmarks: recipe } }
+        )
+        console.log(response)
+        return response;
+      } catch (e) {
+        console.log(`Unable to add recipe, ${e}`)
+      }
+    }
+    
   static async getIngredients(){
     let response = {};
     try{

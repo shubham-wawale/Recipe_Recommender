@@ -1,5 +1,6 @@
 import express from "express";
 import RecipesCtrl from "./recipes.controller.js";
+import RecipesDAO from "../dao/recipesDAO.js";
 
 const router = express.Router();
 //URl to get the recipes
@@ -11,5 +12,10 @@ router.route("/addRecipe").post(RecipesCtrl.apiPostRecipe);
 
 router.route('/callIngredients').get(RecipesCtrl.apiGetIngredients);
 
+router.route("/signup").post(RecipesCtrl.apiAuthSignup);
+
+router.route("/login").get(RecipesCtrl.apiAuthLogin);
+
+router.route("/addRecipeToProfile").post(RecipesCtrl.apiPostRecipeToProfile);
 
 export default router;
