@@ -86,6 +86,12 @@ class App extends Component {
     }
   }
 
+  handleBookMarks = ()=> {
+    this.setState({
+      isProfileView: true
+    })
+  }
+
   // Function to get the user input from the Form component on Submit action
   handleSubmit = async (formDict) => {
     this.setState({
@@ -138,7 +144,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav handleLogout={this.handleLogout} user={this.state.userData}/>
+        <Nav handleLogout={this.handleLogout} handleBookMarks={this.handleBookMarks} user={this.state.userData}/>
         {this.state.isLoggedIn ?
           <>
             {this.state.isProfileView ?
