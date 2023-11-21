@@ -21,18 +21,7 @@ export default class RecipesController {
       res.json({ success, user });
     }
   }
-
-  static async apiGetBookmarks(req, res) {
-    if (req.query.userName) {
-      const bookmarks = await RecipesDAO.getBookmarks(req.query.userName)
-      console.log("I am here")
-      console.log(bookmarks)
-      res.json({ bookmarks });
-    } else {
-      res.json("Username not given")
-    }
-  }
-
+  
   static async apiGetBookmarks(req, res) {
     if (req.query.userName) {
       const bookmarks = await RecipesDAO.getBookmarks(req.query.userName)
