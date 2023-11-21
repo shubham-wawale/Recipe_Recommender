@@ -16,6 +16,8 @@ router.route("/signup").post(RecipesCtrl.apiAuthSignup);
 
 router.route("/login").get(RecipesCtrl.apiAuthLogin);
 
+router.route("/getBookmarks").get(RecipesCtrl.apiGetBookmarks);
+
 router.route("/addRecipeToProfile").post(RecipesCtrl.apiPostRecipeToProfile);
 
 export default router;

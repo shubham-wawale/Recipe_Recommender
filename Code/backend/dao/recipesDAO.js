@@ -62,6 +62,24 @@ export default class RecipesDAO {
     }
   }
   
+  //function to get bookmarks
+  static async getBookmarks(userName) {
+    let query;
+    let cursor;
+    let user;
+    query = { "userName": userName }
+    console.log(query)
+    try {
+      cursor = await users.findOne(query);
+      if (cursor.userName) {
+        return cursor.bookmarks;
+      } else {
+        return { bookmarks: [] }
+      }
+    } catch (e) {
+      console.log(`error: ${e}`)
+    }
+  }
 
   //Function to get the Recipe List
   static async getRecipes({
