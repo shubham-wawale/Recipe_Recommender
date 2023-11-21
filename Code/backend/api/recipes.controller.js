@@ -22,6 +22,21 @@ export default class RecipesController {
     }
   }
 
+  static async apiPostRecipeToProfile(req, res) {
+    if (req.body) {
+      const { userName, recipe } = req.body;
+      try {
+        const response = RecipesDAO.addRecipeToProfile(userName, recipe)
+        res.json(response)
+      } catch (e) {
+        console.log(`error: ${e}`)
+      }
+
+    } else {
+      res.json({ success: false })
+    }
+
+  }
   
   static async apiGetRecipeByName(req, res) {
     let filters = {};
