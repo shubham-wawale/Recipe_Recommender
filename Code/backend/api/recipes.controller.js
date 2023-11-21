@@ -22,6 +22,28 @@ export default class RecipesController {
     }
   }
 
+  static async apiGetBookmarks(req, res) {
+    if (req.query.userName) {
+      const bookmarks = await RecipesDAO.getBookmarks(req.query.userName)
+      console.log("I am here")
+      console.log(bookmarks)
+      res.json({ bookmarks });
+    } else {
+      res.json("Username not given")
+    }
+  }
+
+  static async apiGetBookmarks(req, res) {
+    if (req.query.userName) {
+      const bookmarks = await RecipesDAO.getBookmarks(req.query.userName)
+      console.log("I am here")
+      console.log(bookmarks)
+      res.json({ bookmarks });
+    } else {
+      res.json("Username not given")
+    }
+  }
+
   static async apiPostRecipeToProfile(req, res) {
     if (req.body) {
       const { userName, recipe } = req.body;
