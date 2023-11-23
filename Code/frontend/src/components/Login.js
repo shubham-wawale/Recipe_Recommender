@@ -12,6 +12,7 @@ const Login = (props)=> {
         setPassword(e.target.value)
     }
     const handleLogin = (e)=> {
+        e.preventDefault();
         props.handleLogin(userName, password);
     }
     const handleSignup = (e)=> {
@@ -33,7 +34,7 @@ const Login = (props)=> {
 
             <FormControl mt={4}>
               <FormLabel>Password</FormLabel>
-              <Input onChange={handlePassword} placeholder='Password' />
+              <Input type="password" onChange={handlePassword} placeholder='Password' />
             </FormControl>
           </ModalBody>
 
