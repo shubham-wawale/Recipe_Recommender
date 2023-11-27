@@ -8,6 +8,8 @@ import React, { Component } from "react";
 import { Tabs, Tab, TabList,TabPanel, TabPanels, Box } from "@chakra-ui/react";
 import RecipeLoading from "./components/RecipeLoading.js";
 import Nav from "./components/Navbar.js";
+import Login from "./components/Login.js";
+import UserProfile from "./components/UserProfile.js";
 
 // Main component of the project
 class App extends Component {
@@ -22,8 +24,72 @@ class App extends Component {
       recipeList: [],
       email: "",
       flag: false,
-      isLoading: false
+      isLoading: false,
+      isLoading: false,
+      isLoggedIn: false,
+      isProfileView: false,
+      userData: {}
     };
+  }
+
+  handleProfileView = ()=> {
+    this.setState({
+      isProfileView: false
+    })
+  }
+
+  handleSignup = async (userName, password)=> {
+    try {
+      const response = await recipeDB.post("/recipes/signup", {
+          userName,
+          password
+      });
+      console.log(response.data)
+      if (response.data.success) {
+        alert("Successfully Signed up!")
+        this.setState({
+          isLoggedIn: true,
+          userData: response.data.user
+        })
+        localStorage.setItem("userName", response.data.user.userName)
+        console.log(response.data.user)
+      } else {
+        alert("User already exists")
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
+  handleLogin = async (userName, password) => {
+    try {
+      const response = await recipeDB.get("/recipes/login", {
+        params: {
+          userName,
+          password
+        },
+      });
+      console.log(response.data)
+      if (response.data.success) {
+        this.setState({
+          isLoggedIn: true,
+          userData: response.data.user
+        })
+        localStorage.setItem("userName", response.data.user.userName)
+        console.log(response.data.user)
+        alert("Successfully logged in!")
+      } else {
+        console.log("Credentials are incorrect")
+      }
+    } catch (err) {
+      console.log(err);
+    }
+  }
+
+  handleBookMarks = ()=> {
+    this.setState({
+      isProfileView: true
+    })
   }
 
   // Function to get the user input from the Form component on Submit action
@@ -68,29 +134,45 @@ class App extends Component {
     }
   };
 
+  handleLogout = ()=> {
+    console.log("logged out")
+    this.setState({
+      isLoggedIn: false
+    })
+  }
+
   render() {
     return (
       <div>
-        <Nav />
-
+        <Nav handleLogout={this.handleLogout} handleBookMarks={this.handleBookMarks} user={this.state.userData}/>
+        {this.state.isLoggedIn ?
+          <>
+            {this.state.isProfileView ?
+            <UserProfile handleProfileView={this.handleProfileView} user={this.state.userData} />
+            :
+              <Tabs variant='soft-rounded' colorScheme='green'>
+                <TabList ml={10}>
+                  <Tab>Search Recipe</Tab>
+                  <Tab>Add Recipe</Tab>
+                </TabList>
+                <TabPanels>
+                  <TabPanel>
+                    <Box display="flex">
+                      <Form sendFormData={this.handleSubmit} />
+                      {this.state.isLoading ? <RecipeLoading /> : <RecipeList recipes={this.state.recipeList} />}
+                    </Box>
+                  </TabPanel>
+                  <TabPanel>
+                    <AddRecipe />
+                  </TabPanel>
+                </TabPanels>
+              </Tabs>
+            }
+          </>
+          : <Login handleSignup={this.handleSignup} handleLogin={this.handleLogin} />
+        }
         {/* handleSubmit function is being sent as a prop to the form component*/}
-        <Tabs variant='soft-rounded' colorScheme='green'>
-          <TabList ml={10}>
-            <Tab>Search Recipe</Tab>
-            <Tab>Add Recipe</Tab>
-          </TabList>
-          <TabPanels>
-            <TabPanel>
-            <Box display="flex">
-            <Form sendFormData={this.handleSubmit} />
-            {this.state.isLoading ? <RecipeLoading/> : <RecipeList recipes={this.state.recipeList} /> }
-            </Box>
-            </TabPanel>
-            <TabPanel>
-              <AddRecipe />
-            </TabPanel>
-          </TabPanels>
-        </Tabs>
+
 
         {/* RecipeList is the component where results are displayed.
         App's recipeList state item is being sent as a prop

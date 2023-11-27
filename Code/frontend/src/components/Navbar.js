@@ -43,9 +43,16 @@ const NavLink = (props) => {
   )
 }
 
-export default function Nav() {
+export default function Nav(props) {
   const { colorMode, toggleColorMode } = useColorMode()
   const { isOpen, onOpen, onClose } = useDisclosure()
+  const handleBookMarks =()=> {
+    props.handleBookMarks();
+  }
+  const handleLogout = ()=> {
+    console.log("logged out")
+    props.handleLogout();
+  }
   return (
     <>
       <Box color={"black"} mb={5}  bg={"green.300"} px={4}>
@@ -71,19 +78,18 @@ export default function Nav() {
                   <br />
                   <Center>
                     <Avatar
-                      size={'2xl'}
+                      size={'xl'}
                       src={'https://avatars.dicebear.com/api/male/username.svg'}
                     />
                   </Center>
                   <br />
                   <Center>
-                    <p>Username</p>
+                    <p>{localStorage.getItem("userName")}</p>
                   </Center>
                   <br />
                   <MenuDivider />
-                  <MenuItem>Your Servers</MenuItem>
-                  <MenuItem>Account Settings</MenuItem>
-                  <MenuItem>Logout</MenuItem>
+                  <MenuItem onClick={handleBookMarks}>Bookmarks</MenuItem>
+                  <MenuItem onClick={handleLogout}>Logout</MenuItem>
                 </MenuList>
               </Menu>
             </Stack>
